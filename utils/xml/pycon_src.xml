@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rset size="82">
+<Talk>
+  <title>Pourquoi utiliser Python sous Windows</title>
+  <description>Pourquoi utiliser python sous Windows</description>
+  <start_time>2010-08-29 11:00:00</start_time>
+  <end_time>2010-08-29 11:30:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-08-28 11:53:54.645480</modification_date>
+  <creation_date>2010-08-28 11:43:24.141210</creation_date>
+  <cwuri>http://www.pycon.fr/eid/2295</cwuri>
+  <location>Agora</location>
+  <eid>2295</eid>
+</Talk>
+<Talk>
+  <title>Présentation du framework Web Nagare</title>
+  <description>Par Hervé Coatanhay
+
+Nagare est un framework web Opensource sous licence BSD, il permet de
+développer des applications web d'une nouvelle manière grâce à son
+approche originale.
+
+En effet, Nagare n'utilise pas l'architecture MVC mais se base sur:
+  - un modèle de composants robuste,
+  - l'association directe de callback,
+  - la génération programmatique de HTML,
+  - la transparence des requêtes HTTP pour le développeur (grâce à l'utilisation de la continuation).
+
+Le but de cette présentation est de montrer les possibiltés offertes
+par cette façon de concevoir des application web.</description>
+  <start_time>2010-08-28 16:45:00</start_time>
+  <end_time>2010-08-28 17:15:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-08-28 10:24:50.072326</modification_date>
+  <creation_date>2010-07-15 21:53:33.517383</creation_date>
+  <cwuri>http://www.pycon.fr/eid/2007</cwuri>
+  <location>Agora</location>
+  <eid>2007</eid>
+</Talk>
+<Talk>
+  <title>Analyse statistique et classification automatique de texte avec nltk et scikit-learn</title>
+  <description>Le but de cette présentation est de donner un aperçu de deux libs python très utiles pour le traitement automatique de données textuelles:
+
+- nltk_ (Natural Language Toolkit) permet de "parser" du texte en anglais (et certaines autres langues) pour en extraire la structure des phrases et donc parfois aussi leur sens ;
+- `scikit-learn`_ extension pour numpy/scipy qui fournit des implementations de references des principaux algorithmes d'apprentissage artificiel(statistical machine learning)
+
+Pour présenter les concepts mis en jeu de la manière la plus concrète possible, nous prendrons l'exemple de la classification automatiques de documents web (HTML, PDF, email, ...) en fonction du sujet parmis une liste fixe d'une vingtaine de sujet prédéfinis. 
+
+.. _nltk: http://www.nltk.org
+.. _`scikit-learn`: http://scikit-learn.sourceforge.net</description>
+  <start_time>2010-08-28 16:15:00</start_time>
+  <end_time>2010-08-28 16:45:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-08-27 09:58:48.131088</modification_date>
+  <creation_date>2010-06-30 01:08:08.665465</creation_date>
+  <cwuri>http://www.pycon.fr/eid/1877</cwuri>
+  <location>Agora</location>
+  <eid>1877</eid>
+</Talk>
+<Talk>
+  <title>Lightnings</title>
+  <description>Inscriptions libres sur ce wiki: http://pyconfr2010.couch.it/Lightnings_Talks et sur un tableau blanc a l'entrée de la salle Agora pendant la durée de la conférence.</description>
+  <start_time>2010-08-29 17:15:00</start_time>
+  <end_time>2010-08-29 18:00:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-08-23 14:06:37.066071</modification_date>
+  <creation_date>2010-07-23 01:12:34.756560</creation_date>
+  <cwuri>http://www.pycon.fr/eid/2105</cwuri>
+  <location>Agora</location>
+  <eid>2105</eid>
+</Talk>
+<Talk>
+  <title>Lightnings</title>
+  <description>Inscriptions libres sur ce wiki: http://pyconfr2010.couch.it/Lightnings_Talks et sur un tableau blanc a l'entrée de la salle Agora pendant la durée de la conférence.</description>
+  <start_time>2010-08-28 17:30:00</start_time>
+  <end_time>2010-08-28 18:00:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-08-23 14:05:39.696476</modification_date>
+  <creation_date>2010-07-22 23:51:38.177588</creation_date>
+  <cwuri>http://www.pycon.fr/eid/2100</cwuri>
+  <location>Agora</location>
+  <eid>2100</eid>
+</Talk>
+<Talk>
+  <title>Atelier découverte de CubicWeb</title>
+  <description>Un atelier d'une demi-journée (ou moins) pour présenter les concepts de `CubicWeb &lt;http://www.cubicweb.org/&gt;`_ et permettre à tous d'acquérir les bases pour réaliser leur première application web ou leur premier site avec CubicWeb.
+
+On utilisera comme exemple les sites http://demo.cubicweb.org, http://www.pycon.fr, http://www.logilab.org, http://apycot.hg-scm.org, etc.
+
+Pour ne pas perdre de temps avec l'installation en début d'atelier, les participants sont invités à lancer avant de venir un `apt-get install cubicweb` dans une machine virtuelle Debian/lenny ou à se reporter à la `procédure d'installation &lt;http://www.cubicweb.org/doc/en/admin/setup&gt;`_ ou à demander de l'aide sur la `liste de discussion &lt;http://lists.cubicweb.org/mailman/listinfo/cubicweb&gt;`_.</description>
+  <start_time>2010-08-29 14:00:00</start_time>
+  <end_time>2010-08-29 15:30:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-08-01 15:23:52.343002</modification_date>
+  <creation_date>2010-07-15 19:48:08.695011</creation_date>
+  <cwuri>http://www.pycon.fr/eid/1984</cwuri>
+  <location>Classe Numérique</location>
+  <eid>1984</eid>
+</Talk>
+<Talk>
+  <title>Plone: optimisation, déploiement.</title>
+  <description>Optimisations et déploiement #20 minutes
+------------------------------------------
+
+autour de Zope/Plone
++++++++++++++++++++++++++++
+
+  * proxy-cache: varnish + intégration Plone
+  * ramcache: memcached + intégration Plone + intégration Zope
+  * loadbalancer: HAProxy
+  * newsletter: configuration pour un support de +8300 emails.
+
+dans Plone
++++++++++++++
+
+  * add-on: experimental.*, Relstorage, collective.remove.*, ...
+  * code profiling pour finir: gprof2dot
+
+Questions #5 minutes
+++++++++++++++++++++++</description>
+  <start_time>2010-08-29 11:00:00</start_time>
+  <end_time>2010-08-29 11:30:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-23 09:55:26.833527</modification_date>
+  <creation_date>2010-07-20 17:16:03.476547</creation_date>
+  <cwuri>http://www.pycon.fr/eid/2036</cwuri>
+  <location>Agora</location>
+  <eid>2036</eid>
+</Talk>
+<Talk>
+  <title>Petit-déj, présentations</title>
+  <description>Au programme :
+---------------
+
++ petit déjeuner offert par l'AFPy
++ moment convivial qui permet aux gens de se rencontrer, d'échanger.
++ présentation du HackerSpace
++ inscription aux lightenings-talks du dimanche soir
++ présentation des sponsors "Gold"</description>
+  <start_time>2010-08-28 10:00:00</start_time>
+  <end_time>2010-08-28 11:00:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-23 09:33:40.968199</modification_date>
+  <creation_date>2010-07-23 09:28:51.979954</creation_date>
+  <cwuri>http://www.pycon.fr/eid/2112</cwuri>
+  <eid>2112</eid>
+</Talk>
+<Talk>
+  <title>Mozilla et Python</title>
+  <description>Utilisation de Python chez Mozilla.</description>
+  <start_time>2010-08-29 16:45:00</start_time>
+  <end_time>2010-08-29 17:15:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-23 01:53:47.831577</modification_date>
+  <creation_date>2010-07-19 15:51:08.340298</creation_date>
+  <cwuri>http://www.pycon.fr/eid/2032</cwuri>
+  <location>Agora</location>
+  <eid>2032</eid>
+</Talk>
+<Talk>
+  <title>Intégration continue avec apycot</title>
+  <description>`apycot`_ est un outil d'intégration continue permettant de lancer une série
+de tests automatiques lorsqu'un changement est détecté dans un entrepôt de
+gestion de sources (svn ou mercurial).
+
+La plateforme fournit déjà un ensemble de plugins permettant de s'assurer que
+les tests unitaires passent (unittest, py.test), que la couverture de code est suffisante (pycoverage),
+que le code respecte les conventions de codage du projet (pylint), que des bugs ne sont
+pas détectés (pylint, pychecker) ainsi que certains autres autour du packaging (distutils, debian).
+
+Cette présentation a pour but de présenter l'outil et ses possibilités, qui ne se limitent
+pas au monde python, ainsi qu'un exemple concret d'utilisation par l'équipe de développement
+de `mercurial`_ avec le site `hgpycot`_.
+
+Enfin, la présentation conclura en exposant les évolutions futures, en particulier la
+maintenance d'entrepôts debian/ubuntu et établira un comparatif avec les outils
+existants comme `buildbot`_.
+
+
+.. _apycot: http://www.logilab.org/project/apycot
+.. _mercurial: http://mercurial.selenic.com/
+.. _hgpycot: http://apycot.hg-scm.org/
+.. _buildbot: http://buildbot.net/</description>
+  <start_time>2010-08-29 15:45:00</start_time>
+  <end_time>2010-08-29 16:15:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-23 01:52:56.286765</modification_date>
+  <creation_date>2010-07-13 19:14:11.304178</creation_date>
+  <cwuri>http://www.pycon.fr/eid/1949</cwuri>
+  <location>Agora</location>
+  <eid>1949</eid>
+</Talk>
+<Talk>
+  <title>Optimisation d'applications Django</title>
+  <description>Django rend parfois le développement d'applications trop facile, et la documentation est souvent orientée vers les fonctionnalités plus que vers les performances.
+
+Une application Django peut être prototypée très rapidement, mais pas n'utilise pas forcément les ressources de manière optimale. Nous allons donc voir les différents moyens d'identifier les goulots d'étranglement et les sources d'optimisation possibles : l'ORM et les templates sont les principaux consommateurs de ressources, et le cache est une piste à explorer sérieusement pour réduire la charge.
+
+Le but de cette présentation est d'introduire des outils et des techniques permettant d'optimiser son projet de manière efficace.</description>
+  <start_time>2010-08-29 16:45:00</start_time>
+  <end_time>2010-08-29 17:15:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-23 01:51:25.364889</modification_date>
+  <creation_date>2010-07-16 00:06:10.022674</creation_date>
+  <cwuri>http://www.pycon.fr/eid/2013</cwuri>
+  <location>Classe Numérique</location>
+  <eid>2013</eid>
+</Talk>
+<Talk>
+  <title>Retour d'expérience sur l'utilisation de décorateur sur un projet industriel</title>
+  <description>Lightning Talk, sur les avantages et inconvénients liés à l'utilisation de décorateurs spécifiques dans un projet R&amp;D.</description>
+  <description_format>text/plain</description_format>
+  <modification_date>2010-07-23 01:48:16.446330</modification_date>
+  <creation_date>2010-07-07 12:01:30.878883</creation_date>
+  <cwuri>http://www.pycon.fr/eid/1917</cwuri>
+  <eid>1917</eid>
+</Talk>
+<Talk>
+  <title>Interfacer Python avec des librairies C, facile</title>
+  <description>Python permet d'utiliser simplement les méthodes déjà existantes dans des librairies C tierces.
+Cette présentation couvrira principalement les extensions natives et le module "ctype".
+Elle sera accompagnée d'exemples d'utilisation de projets ne fournissant pas de "binding" python.</description>
+  <description_format>text/plain</description_format>
+  <modification_date>2010-07-23 01:47:49.053095</modification_date>
+  <creation_date>2010-06-26 18:54:59.943922</creation_date>
+  <cwuri>http://www.pycon.fr/eid/1847</cwuri>
+  <eid>1847</eid>
+</Talk>
+<Talk>
+  <title>Python et Introspection</title>
+  <description>Python dispose de fonctions avancées d'introspection.
+On parcourra l'utilisation des attributs __module__, im_func, co_code, co_argcount, co_varnames et des inévitables hasattr, getattr et setattr. Le tout enrichi d'exemples.</description>
+  <start_time>2010-08-28 14:30:00</start_time>
+  <end_time>2010-08-28 15:00:00</end_time>
+  <description_format>text/plain</description_format>
+  <modification_date>2010-07-23 01:41:45.378184</modification_date>
+  <creation_date>2010-07-07 11:52:26.539488</creation_date>
+  <cwuri>http://www.pycon.fr/eid/1916</cwuri>
+  <location>Agora</location>
+  <eid>1916</eid>
+</Talk>
+<Talk>
+  <title>Interfaçage Python avec C/C++</title>
+  <description>Python est un langage de très haut niveau qui a su montrer ses atouts dans de nombreux domaines, de la programmation web aux applications scientifiques en passant par l'administration système.
+Cependant, malgré sa présence de plus en plus reconnue, il peut parfois s'avérer nécessaire de faire cohabiter Python avec un autre langage compilé, tels le C, le C++ ou encore FORTRAN, que ce soit par choix ou par nécessité. Cette présentation aura pour but de montrer la diversité des solutions offertes au programmeur pour interfacer Python avec du code C ou C++.</description>
+  <start_time>2010-08-29 16:15:00</start_time>
+  <end_time>2010-08-29 16:45:00</end_time>
+  <description_format>text/plain</description_format>
+  <modification_date>2010-07-23 01:41:36.164191</modification_date>
+  <creation_date>2010-07-15 23:04:27.440466</creation_date>
+  <cwuri>http://www.pycon.fr/eid/2011</cwuri>
+  <location>Agora</location>
+  <eid>2011</eid>
+</Talk>
+<Talk>
+  <title>Exploiter les architectures multi-coeurs</title>
+  <description>Malgré le Global Interpreter Lock, python permet de maximiser les architectures multi-coeurs.
+Critiqué pour son incapacité à faire du vrai traitement en parallèle au sein d'un même processus, python est cependant tout à fait capable d'utiliser les mécanismes de communication inter processus pour effectuer cette tâche proprement.
+
+Cette présentation couvrira principalement le module "multiprocessing" et elle sera accompagné d'une démonstration d'un système temps réel mou.</description>
+  <start_time>2010-08-29 12:30:00</start_time>
+  <end_time>2010-08-29 13:00:00</end_time>
+  <description_format>text/plain</description_format>
+  <modification_date>2010-07-23 01:41:26.663813</modification_date>
+  <creation_date>2010-06-27 15:23:52.308668</creation_date>
+  <cwuri>http://www.pycon.fr/eid/1854</cwuri>
+  <location>Agora</location>
+  <eid>1854</eid>
+</Talk>
+<Talk>
+  <title>Construire un CMS sur mesure avec django</title>
+  <description>L'objectif de cette présentation est de partager avec l'auditoire l'expérience accumulée sur des projets ayant pour but de construire un CMS sur mesure remplaçant une application vieillissante ou envahissante.
+
+Cette présentation suivra le plan suivant :
+
+• Décomposition du projet: Ce genre de projet se termine en général avec une liste de plusieurs milliers de tickets. Dans cette première partie nous allons discuter les grands ensembles. Notre approche est basé sur la création d'un prototype qui nous permet de rapidement nous rendre compte de l'ampleur du projet et de fournir au client une estimation du temps de développement nécessaire à la réalisation du projet.
+• Que faire des données existantes : Migrer de bonne heure et migrer souvent
+• Sélectionner des composant  tiers : Réutiliser des applications existantes, créer une fourche dans l'arbre de développement ou créer votre propre application.
+• Mauvaise nouvelle : Django n'est pas parfait -- qu'elles sont ses faiblesses et comment les compenser.
+
+A la fin de cette présentation l'audience sera capable de :
+• Décomposer ce genre de projet en grandes phases
+• Migrer une grosse base de donnée pour peupler les applications django pendant leur développement
+• Sectionner des applications tiers et déterminer leurs évolutions
+
+Au sujet de l'auteur
+--------------------------
+
+J'ai commencé ma carrière comme consultant informatique sur les produits Dassault Systèmes. Mes différentes missions m'ont permis d'intégrer la rigueur et les connaissances nécessaires à l'implémentation de larges systèmes PLM (Product Lifecycle Management) dans des infrastructures informatiques complexes. A la suite de ces années passées chez le plus grand éditeur de logiciel français, j'ai décidé de franchir le pas en travaillant pour un équipementier automobile en prenant le poste de "Responsable PLM France" de Lear Corporation.
+
+Enfin, il y a 2 ans, je suis parti m'installer en Guadeloupe où j'ai développé une activité de consultant et développeur indépendant spécialisé dans la création d'applications web complexes pour des entreprises locales et internationales ; la majorité du chiffre d'affaire est réalisé aux États Unis d'Amérique. Fort de cette expérience et des rencontres faites, j'ai décidé de créer Gwadeloop pour m'attaquer au marché européen en transposant le modèle utilisé avec succès sur le sol américain.
+
+http://gwadeloop.com/
+http://yml-blog.blogspot.com/
+http://lincolnloop.com/team</description>
+  <start_time>2010-08-28 15:00:00</start_time>
+  <end_time>2010-08-28 15:30:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-23 01:39:13.664468</modification_date>
+  <creation_date>2010-07-15 04:17:39.459734</creation_date>
+  <cwuri>http://www.pycon.fr/eid/1959</cwuri>
+  <location>Classe Numérique</location>
+  <eid>1959</eid>
+</Talk>
+<Talk>
+  <title>Gérer efficacemment votre conférence avec une application orientée web sémantique</title>
+  <description>Qu'elle s'adresse au grand public ou à un public expert,
+l'organisation d'une conférence est toujours un grand défi. Un des
+critère majeur pour son succés est l'accès et la diffusion des données
+la concernant sur le web.
+
+
+Aujourd'hui chaque conférence ou workshop développe son propre site
+web, unique et malheureusement incapable de communiquer, d'échanger
+avec d'autres conférence. L'information n'est pas structurée et peut
+difficilement faire l'objet de requêtes extérieures.
+
+
+Je présenterai l'application web `conférence &lt;http://www.cubicweb.org/project/cubicweb-conference&gt;`_
+basée sur le framework web sémantique `CubicWeb &lt;http://www.cubicweb.org/&gt;`_.
+Cette application sous licence LGPL est
+celle que vous utilisez en lisant ces lignes. Elle est également
+utilisée pour la gestion de la conférence `EuroSciPy &lt;http://www.euroscipy.org&gt;`_.
+
+
+Cette application utilise un schéma qui permet de formaliser les
+informations en utilisant plusieurs ontologies parmi lesquelles:
+
+-  `SWCO  &lt;http://data.semanticweb.org/ns/swc/swc_2009-05-09.html&gt;`_ pour `Semantic Web Conference Ontology`,
+
+-  `FOAF &lt;http://xmlns.com/foaf/spec/&gt;`_ pour les participants, orateurs et organisateurs,
+
+-  et dans un futur proche l'ontologie `SWRC` (`Semantic Web
+   forResearch Communities`) pour les données bibliographiques.
+
+
+Mais `Conference` offre d'autres avantages comme la gestion du
+processus de sélection des présentations ou la communication
+d'information au public. La présentation se terminera donc pas une
+visite des coulisses du site PyCONFR.</description>
+  <start_time>2010-08-28 12:30:00</start_time>
+  <end_time>2010-08-28 13:00:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-23 01:38:06.194824</modification_date>
+  <creation_date>2010-07-15 18:12:13.266032</creation_date>
+  <cwuri>http://www.pycon.fr/eid/1971</cwuri>
+  <location>Agora</location>
+  <eid>1971</eid>
+</Talk>
+<Talk>
+  <title>"Push-email" dans Twisted: le making-of</title>
+  <description>Le projet Twisted est un ensemble de modules, de classes et de
+fonctions qui permettent de construire efficacement des applications
+réseau performantes et robustes.
+
+Ce framework réseau couvre en particulier les protocoles d'emails:
+SMTP, POP et IMAP. Par contre, Twisted ne fournit pas une extension du
+standard IMAP: la commande *IDLE* qui permet le *push email*, c'est a
+dire une methode d'acces aux emails plus performante: elle offre une
+latence moindre, tout en diminuant la charge du serveur.
+
+Apres une introduction sur les points cles de Twisted, cette
+presentation montre les etapes d'une implementation de cette
+extension d'IMAP dans Twisted :
+
+1. la réalisation d'un prototype du mécanisme de notification serveur
+   vers client, avec les abstractions du framework,
+
+2. puis l'architecture du module IMAP dans Twisted et le portage du
+   prototype dans ces classes,
+
+3. ensuite, les tests d'intégration avec les serveurs largement
+   utilises: Dovecot et Gmail,
+
+4. enfin, l'adoption des méthodes du projet Twisted qui conditionnent
+   la revue du code et son eventuelle integration</description>
+  <start_time>2010-08-29 14:30:00</start_time>
+  <end_time>2010-08-29 15:00:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-23 01:26:31.622846</modification_date>
+  <creation_date>2010-07-13 23:35:22.704075</creation_date>
+  <cwuri>http://www.pycon.fr/eid/1955</cwuri>
+  <location>Agora</location>
+  <eid>1955</eid>
+</Talk>
+<Talk>
+  <title>Python dans Debian</title>
+  <description>Cette conférence aura pour but de présenter la situation actuelle et à venir de Python dans le projet Debian. Les aspects organisationnels et techniques de Python dans Debian seront abordés. L'accent en première partie sera mis sur l'utilisation de Python au sein du projet Debian et les applications Python disponibles. En deuxième partie de conférence le cas concret de l'empaquetage d'une application Python sera présenté.</description>
+  <start_time>2010-08-29 15:00:00</start_time>
+  <end_time>2010-08-29 15:30:00</end_time>
+  <description_format>text/plain</description_format>
+  <modification_date>2010-07-23 01:24:26.522047</modification_date>
+  <creation_date>2010-07-15 10:04:00.593011</creation_date>
+  <cwuri>http://www.pycon.fr/eid/1961</cwuri>
+  <location>Agora</location>
+  <eid>1961</eid>
+</Talk>
+<Talk>
+  <title>Une base de donnés versionnée en Python : itools.database</title>
+  <description>Parmi les base des donnés dites nosql, itools.database se différence pour son support native du versioning des donnés. Dans cette présentation nous montrerons ses caractéristiques et comment elle est utilisé dans le système de gestion de contenu ikaaro.</description>
+  <start_time>2010-08-29 11:30:00</start_time>
+  <end_time>2010-08-29 12:00:00</end_time>
+  <description_format>text/plain</description_format>
+  <modification_date>2010-07-23 01:23:03.968829</modification_date>
+  <creation_date>2010-07-15 12:52:48.183172</creation_date>
+  <cwuri>http://www.pycon.fr/eid/1962</cwuri>
+  <location>Agora</location>
+  <eid>1962</eid>
+</Talk>
+<Talk>
+  <title>MongoDB &amp; MongoKit</title>
+  <description>MongoKit est une ODM (Object Document Mapping) pour MongoDB qui propose de nombreuses fonctionnalités.
+
+Je propose une présentation comportant deux points :
+
+- une présentation de MongoDB et un survole rapide de ses possibilités
+
+- une présentation de MongoKit et de ses capacités ainsi qu'une vue d'ensemble de l'API. Cette présentation à déjà été faite à MongoFR cette année : http://www.slideshare.net/namlook/mongokit-presentation-mongofr2010
+
+Je peux, si besoin est, faire une session tutoriel avec création d'un véritable projet web avec MongoKit et Pylons.
+
+Nicolas CLAIRON</description>
+  <start_time>2010-08-29 14:00:00</start_time>
+  <end_time>2010-08-29 14:30:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-23 01:22:51.342683</modification_date>
+  <creation_date>2010-07-14 15:27:32.073614</creation_date>
+  <cwuri>http://www.pycon.fr/eid/1956</cwuri>
+  <location>Agora</location>
+  <eid>1956</eid>
+</Talk>
+<Talk>
+  <title>Atelier sur la programmation en Flux avec PyF</title>
+  <description>Atelier (1H) : Un atelier permet à chaque participant de coder.
+
+Installation du web service de PyF, création d'un premier tube de traitement de données (permettant par exemple d'extraire des données et de génèrer un fichier xml, un csv et un rapport pdf en parallèle) et présentation rapide du système de plugins de pyf, des synchronisation, des séparations et des regroupement de flux.</description>
+  <start_time>2010-08-28 14:00:00</start_time>
+  <end_time>2010-08-28 15:00:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-23 01:11:55.095756</modification_date>
+  <creation_date>2010-07-15 21:27:07.581308</creation_date>
+  <cwuri>http://www.pycon.fr/eid/2001</cwuri>
+  <location>classe numérique</location>
+  <eid>2001</eid>
+</Talk>
+<Talk>
+  <title>lpOD-python ODF top-down</title>
+  <description>- orateur: Luis Belmar-Letelier http://www.itaapy.com/qui-sommes-nous#luis et Hervé Cauwelier herve@itaapy.com
+- format: Tutorial (55mn) 
+
+lpOD (http://lpod-project.org/) est une plateforme proposant une API de haut
+niveau de type *top-down* pour manipuler l'ensemble des objets décrits par la
+norme ODF (ISO/IEC 26300): .odt, .ods, .odp, .odg.
+
+Aujourd'hui l'implémentation de référence, réalisée en python, est terminée à 95%.
+
+Nous vous présenterons le projet, l'architecture, les méthodes employées,
+et l'interaction du projet lpod avec : 
+
+- les autres communautés ODF (OpendocumentSocity, ODFDom),
+- les comité et groupe de normalisation, (OASIS, ODF Plugfests) 
+- les laboratoires de recherche, (Télécom Paristech, C2RMF, PMC, LIL) 
+
+Enfin et surtout nous illustrerons l'usage de la librairie Python au travers 
+de nombreux exemples, des plus simples aux plus comlexes (application ikaaro.wiki).</description>
+  <start_time>2010-08-29 15:45:00</start_time>
+  <end_time>2010-08-29 16:45:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-23 00:43:39.289365</modification_date>
+  <creation_date>2010-07-15 19:52:32.968277</creation_date>
+  <cwuri>http://www.pycon.fr/eid/1988</cwuri>
+  <location>Classe Numérique</location>
+  <eid>1988</eid>
+</Talk>
+<Talk>
+  <title>Gunicorn, déployer facilement votre application python sur le web</title>
+  <description>Lors de cette conférence, je présenterais Gunicorn_, 'Green Unicorn', un serveur WSGI pour UNIX:
+
+- Comment fonctionne Gunicorn 
+
+- Comment intégrer votre application avec Gunicorn_ quelque soit le framework ou sans framework
+
+- Créer un serveur de chat, utiliser les websockets, mettre un site de e-commerce en ligne, un blog... Quels sont les options à utiliser
+
+- Mettre en production
+
+- Surveiller Gunicorn_
+
+- Quelques trucs
+
+ ...
+
+.. _Gunicorn: http://gunicorn.org</description>
+  <start_time>2010-08-28 11:00:00</start_time>
+  <end_time>2010-08-28 11:30:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-23 00:41:59.990376</modification_date>
+  <creation_date>2010-07-12 09:13:02.328555</creation_date>
+  <cwuri>http://www.pycon.fr/eid/1934</cwuri>
+  <location>Agora</location>
+  <eid>1934</eid>
+</Talk>
+<Talk>
+  <title>Perfect-Sale: un e-commerce en python</title>
+  <description>Orateur: Sylvain Taverne (sylvain@itaapy.com)
+Format: présentation (25 minutes)
+
+Perfect-Sale est une solution e-commerce écrite en python et basée sur une base de données objet versionnée. Nous présenterons les caractéristiques et avantages de perfect-sale qui lui sont notamment conférées par sa plateforme technique iKaaro.</description>
+  <start_time>2010-08-28 17:15:00</start_time>
+  <end_time>2010-08-28 17:30:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-23 00:41:47.301973</modification_date>
+  <creation_date>2010-07-15 19:20:33.377468</creation_date>
+  <cwuri>http://www.pycon.fr/eid/1977</cwuri>
+  <location>Agora</location>
+  <eid>1977</eid>
+</Talk>
+<Talk>
+  <title>Aiguille et botte de foin: scikit-learn et joblib pour explorer des données volumeuses</title>
+  <description>Que cela soit sous la forme de bases de données, d'images, de textes ou de séries temporelles, les systèmes informatiques modernes accumulent de gros volumes de données.
+
+La fouille de donnée pour extraire des informations pertinentes des univers numériques est normalement réservée à des logiciels spécialisés qui intègrent accès aux données, algorithmes d'apprentissage statistiques et moteurs d'exécution avec bien souvent une interface utilisateur dédiée, des outils de visualisation, ou un langage de script.
+
+Pour permettre d'attaquer des problèmes variés, tant en ce qui concerne le type de données traitées que le contexte d'application, il est important de fournir des briques réutilisables sous forme de librairies.
+
+Je présenterai deux efforts récents allant dans cette direction et qui s'intègrent dans l'univers riche de modules Python pour la gestion de base de données ou le calcul scientifique:
+
+* `scikit-learn &lt;http://scikit-learn.sourceforge.net/&gt;`_: une librairie regroupant des algorithmes d'apprentissage statistique sous forme d'objets s'efforçant d'abstraire les détails mathématiques pour répondre à des cas d'utilisation concret.
+
+* `joblib &lt;http://packages.python.org/joblib/&gt;`_: un projet encore jeune de métaprogrammation pour assembler des fonctions et des objets Python sous forme d'une `pipeline` permettant de traiter efficacement de grosses données. La particularité de `joblib` est d'encourager le développement de code Python classique en évitant le recours à un moteur d'exécution.
+
+L'originalité de l'approche présentée est de séparer moteur d'exécution, algorithmes, et accès aux données pour maximiser la réutilisation de code.
+
+J'illustrerai l'utilisation de ces librairies sur des problèmes d'apprentissage statistique et de fouille de données avec des images et des données textuelles.</description>
+  <start_time>2010-08-28 15:45:00</start_time>
+  <end_time>2010-08-28 16:15:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-23 00:41:36.029943</modification_date>
+  <creation_date>2010-07-16 22:06:02.127059</creation_date>
+  <cwuri>http://www.pycon.fr/eid/2022</cwuri>
+  <location>Agora</location>
+  <eid>2022</eid>
+</Talk>
+<Talk>
+  <title>Python sur les nuages</title>
+  <description>Lors de cette présentation nous verrons comment déployer facilement votre application python sur le cloud ou controler celui-ci avec python:
+
+- Quelles sont les outils opensources ou non qui peuvent vous y aider: App Engine, Mediatemple, Silverlining, Libcloud, kraftwerk, ... 
+
+- Quelques trucs pour rendre votre application python facilement déployable sur le cloud.</description>
+  <start_time>2010-08-28 15:00:00</start_time>
+  <end_time>2010-08-28 15:30:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-23 00:40:45.711326</modification_date>
+  <creation_date>2010-07-12 09:27:13.121785</creation_date>
+  <cwuri>http://www.pycon.fr/eid/1935</cwuri>
+  <location>Agora</location>
+  <eid>1935</eid>
+</Talk>
+<Talk>
+  <title>Programmation en Flux, présentation et application avec PyF</title>
+  <description>Présentation (25 mn) de la programmation en flux et des générateurs python.
+La présentation explique le concept, sa raison d'être en programmation python, les possibilités qu'elle offre et son application avec les librairies PyF.
+
+note pour l'organisation:
+si possible, la présentation ne doit pas etre pas le matin tot (sujet complexe) et avant l'atelier (pas forcément immediatement, mais permettant aux personnes ayant assisté à la présentation d'assister à l'atelier).</description>
+  <start_time>2010-08-28 12:00:00</start_time>
+  <end_time>2010-08-28 12:30:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-23 00:39:41.625679</modification_date>
+  <creation_date>2010-07-15 21:19:42.603420</creation_date>
+  <cwuri>http://www.pycon.fr/eid/1994</cwuri>
+  <location>Agora</location>
+  <eid>1994</eid>
+</Talk>
+<Talk>
+  <title>Hackerspace</title>
+  <description>Rencontrez les personne d'un projet, Discutez, Travaillez autour d'un projet. Plus d'info sur `hackerspaces.org &lt;http://hackerspaces.org&gt;`_ . Créateurs, mainteneurs de projet  Inscrivez-vous sur le `wiki &lt;http://pyconfr2010.couch.it/&gt;`_</description>
+  <start_time>2010-08-29 11:00:00</start_time>
+  <end_time>2010-08-29 13:00:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-23 00:39:28.966940</modification_date>
+  <creation_date>2010-07-22 19:17:46.696338</creation_date>
+  <cwuri>http://www.pycon.fr/eid/2075</cwuri>
+  <location>Classe Numérique</location>
+  <eid>2075</eid>
+</Talk>
+<Talk>
+  <title>itws le CMS qui respecte vos données</title>
+  <description>- orateur: Luis Belmar-Letelier http://www.itaapy.com/qui-sommes-nous#luis
+- format: Tutorial (55mn) 
+
+itws illustration d'une solution construite avec le CMS python: iKaaro.
+
+Les CMS il y en a tant ! Mais lequel versionne toutes ses données avec git, 
+les conserve dans leur format originel sur votre disque. C'est le résultat 
+d'un travail ininterrompu de 7 années au sein de l'équipe d'Itaapy.
+
+Une interface conviviale et tous les outils pour réaliser un site web moderne.
+Le tout sur un moteur de GED puissant, et toute la panoplie collaborative 
+tracker, wiki, calendrier.
+
+Cette présentation montrera rapidement à quoi ressemble l'utilisation d'itws 
+puis plongera dans une description de son architecture technique particulière
+et la philosophie sous-jacente.
+
+Mots clé: REST, NoSQL, Git, Xapian, lpOD et ... Python</description>
+  <start_time>2010-08-28 15:45:00</start_time>
+  <end_time>2010-08-28 16:45:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-23 00:39:08.099647</modification_date>
+  <creation_date>2010-07-15 19:20:06.734816</creation_date>
+  <cwuri>http://www.pycon.fr/eid/1976</cwuri>
+  <location>Classe Numérique</location>
+  <eid>1976</eid>
+</Talk>
+<Talk>
+  <title>Assemblée générale de l'Association Francophone Python</title>
+  <description>+ ordre du jour à compléter
++ bilans moral et financier
++ discussion ouverte avec les membres
++ renouvellement du CD
++ élection du Prés</description>
+  <start_time>2010-08-29 10:00:00</start_time>
+  <end_time>2010-08-29 11:00:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-23 00:38:28.136690</modification_date>
+  <creation_date>2010-07-21 23:12:49.354474</creation_date>
+  <cwuri>http://www.pycon.fr/eid/2044</cwuri>
+  <location>Agora</location>
+  <eid>2044</eid>
+</Talk>
+<Talk>
+  <title>Atelier d'introduction à la programmation avec Python</title>
+  <description>Atelier de programmation pour les débutants en Python avec exercices
+interactifs. Cet atelier s'adresse à des personnes qui connaissent déjà la
+programmation dans un autre langage (C/C++, Java, Perl, PHP, ...) et qui
+voudraient decouvrir les joies de ce sympathique langage qu'est Python.
+
+Nous essaierons de préparer des ordinateurs mais si vous disposez d'un
+ordinateur portable, il est recommandé de venir avec. Installez au préalable
+python 2.6 ou 2.7: http://python.org/download/</description>
+  <start_time>2010-08-28 10:30:00</start_time>
+  <end_time>2010-08-28 12:30:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-23 00:38:22.297372</modification_date>
+  <creation_date>2010-07-22 00:24:40.353353</creation_date>
+  <cwuri>http://www.pycon.fr/eid/2067</cwuri>
+  <location>Classe Numérique</location>
+  <eid>2067</eid>
+</Talk>
+<Talk>
+  <title>Les WebServices faciles avec TGWebServices</title>
+  <description>Implémenter des webservices multi-protocoles au sein de votre application TurboGears est un jeu d'enfant avec TGWebServices.
+
+Après une présentation de TGWebServices, on verra comment concevoir, implémenter, documenter et utiliser des webservices avec les différents protocoles.
+
+Forme proposée : Un tutoriel de 55min.</description>
+  <start_time>2010-08-28 16:45:00</start_time>
+  <end_time>2010-08-28 17:45:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-23 00:08:26.363583</modification_date>
+  <creation_date>2010-07-08 20:09:13.422791</creation_date>
+  <cwuri>http://www.pycon.fr/eid/1922</cwuri>
+  <location>Classe numérique</location>
+  <eid>1922</eid>
+</Talk>
+<Talk>
+  <title>pause</title>
+  <start_time>2010-08-28 15:30:00</start_time>
+  <end_time>2010-08-28 15:45:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-22 23:40:15.810531</modification_date>
+  <creation_date>2010-07-22 23:37:46.044415</creation_date>
+  <cwuri>http://www.pycon.fr/eid/2095</cwuri>
+  <eid>2095</eid>
+</Talk>
+<Talk>
+  <title>Tryton : développement d'application pour entreprise</title>
+  <description>Tryton est une plate-forme applicative écrite en Python permettant le développement rapide d'application pour la gestion d'entreprise.
+Le but de la présentation est de montrer comme Tryton résout les problèmes de développement d'application de gestion d'entreprise.</description>
+  <start_time>2010-08-28 11:30:00</start_time>
+  <end_time>2010-08-28 12:00:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-22 23:27:17.059337</modification_date>
+  <creation_date>2010-07-12 00:49:58.439745</creation_date>
+  <cwuri>http://www.pycon.fr/eid/1931</cwuri>
+  <location>Agora</location>
+  <eid>1931</eid>
+</Talk>
+<Talk>
+  <title>Un réseau social ouvert et distribué avec CubicWeb</title>
+  <description>Cette présentation sera l'occasion de décrire comment des composants pour `CubicWeb &lt;http://www.cubicweb.org&gt;`_ peuvent être assemblés pour aboutir à une application qui constitue un noeud d'un réseau social distribué.
+
+Chaque personne membre du réseau peut se tenir au courant des nouvelles publiées par ses amis, voir les dernières photos, lire les derniers commentaires écrits à propos de livres, de musique ou de films.
+
+Comme toujours avec CubicWeb, cette application est un logiciel libre qui utilise et encourage les standards du Web Sémantique, parmi lesquels RDF et SPARQL. Les premiers exemples sont les sites des développeurs, qui seront bientôt publics. Le réseau social résultant est donc à la fois distribué et ouvert.</description>
+  <start_time>2010-08-29 12:00:00</start_time>
+  <end_time>2010-08-29 12:30:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-22 23:26:50.538969</modification_date>
+  <creation_date>2010-07-15 19:43:02.109883</creation_date>
+  <cwuri>http://www.pycon.fr/eid/1978</cwuri>
+  <location>Agora</location>
+  <eid>1978</eid>
+</Talk>
+<Talk>
+  <title>pause</title>
+  <start_time>2010-08-29 15:30:00</start_time>
+  <end_time>2010-08-29 15:45:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-22 23:20:49.474883</modification_date>
+  <creation_date>2010-07-22 23:15:45.180678</creation_date>
+  <cwuri>http://www.pycon.fr/eid/2090</cwuri>
+  <eid>2090</eid>
+</Talk>
+<Talk>
+  <title>pause</title>
+  <start_time>2010-08-29 15:30:00</start_time>
+  <end_time>2010-08-29 15:45:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-22 23:11:35.020380</modification_date>
+  <creation_date>2010-07-22 23:10:13.305429</creation_date>
+  <cwuri>http://www.pycon.fr/eid/2085</cwuri>
+  <eid>2085</eid>
+</Talk>
+<Talk>
+  <title>pause</title>
+  <start_time>2010-08-28 15:30:00</start_time>
+  <end_time>2010-08-28 15:45:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-22 23:03:09.317763</modification_date>
+  <creation_date>2010-07-22 22:59:26.609591</creation_date>
+  <cwuri>http://www.pycon.fr/eid/2080</cwuri>
+  <eid>2080</eid>
+</Talk>
+<Talk>
+  <title>essai pour jouer avec le cubic</title>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-22 18:35:50.849912</modification_date>
+  <creation_date>2010-06-09 14:26:08.729513</creation_date>
+  <cwuri>http://www.pycon.fr/eid/1637</cwuri>
+  <eid>1637</eid>
+</Talk>
+<Talk>
+  <title>Industrialiser vos applications Django avec DjangoPluggableApp</title>
+  <description>DjangoPluggableApp est un utilitaire permettant de facilement générer une application Django distribuable et réutilisable.
+
+Le but de la présentation est de démontrer l'efficacité du principe dans un cas concret.</description>
+  <start_time>2010-08-28 14:00:00</start_time>
+  <end_time>2010-08-28 14:30:00</end_time>
+  <description_format>text/rest</description_format>
+  <modification_date>2010-07-22 12:47:30.939620</modification_date>
+  <creation_date>2010-06-11 18:27:13.936948</creation_date>
+  <cwuri>http://www.pycon.fr/eid/1645</cwuri>
+  <location>Agora</location>
+  <eid>1645</eid>
+</Talk>
+<Talk>
+  <title>Developpement d'applications maintenables avec Django</title>
+  <description>Django.</description>
+  <start_time>2009-05-31 14:00:00</start_time>
+  <end_time>2009-05-31 14:55:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-06-03 14:53:56.835692</modification_date>
+  <creation_date>2010-01-22 12:34:18.414332</creation_date>
+  <cwuri>http://crater:8087/eid/1070</cwuri>
+  <eid>1070</eid>
+</Talk>
+<Talk>
+  <title>Piloter vos serveurs vmware avec IronPython</title>
+  <description>L'objet de cette présentation est de montrer comment Python</description>
+  <start_time>2009-05-30 17:00:00</start_time>
+  <end_time>2009-05-30 17:25:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-06-03 14:52:03.408040</modification_date>
+  <creation_date>2010-01-22 12:34:18.171385</creation_date>
+  <cwuri>http://crater:8087/eid/1059</cwuri>
+  <eid>1059</eid>
+</Talk>
+<Talk>
+  <title>Django par la pratique</title>
+  <description>L'atelier est destiné à plusieurs profils :</description>
+  <start_time>2009-05-30 14:00:00</start_time>
+  <end_time>2009-05-30 15:55:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-06-03 14:13:15.919593</modification_date>
+  <creation_date>2010-01-22 12:34:17.994870</creation_date>
+  <cwuri>http://crater:8087/eid/1051</cwuri>
+  <eid>1051</eid>
+</Talk>
+<Talk>
+  <title>Discussion autour de Python et du Web</title>
+  <description>De nombreuses solutions existent pour combiner notre langage favori et le Web. Certaines sont complémentaires, d'autres « concurrentes », mais il est difficile d'étudier chacune des solutions lorsque l'on souhaite se lancer dans un projet.</description>
+  <start_time>2009-05-31 16:30:00</start_time>
+  <end_time>2009-05-31 16:55:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:55.779996</modification_date>
+  <creation_date>2010-01-22 12:34:18.719210</creation_date>
+  <cwuri>http://crater:8087/eid/1083</cwuri>
+  <eid>1083</eid>
+</Talk>
+<Talk>
+  <title>Comprendre les erreurs Unicode</title>
+  <description>Explication des erreurs « UnicodeDecodeError: 'ascii' codec can't decode byte (...) » en revenant à la source de problème : distinguer un octet d'un caractère. Nous verrons les fonctionnalités Unicode de Python2, et comment éviter les problèmes en ne travaillant qu'en Unicode. Enfin, nous verrons pourquoi Python3 répond à vrai besoin au sujet d'Unicode.</description>
+  <start_time>2009-05-31 16:30:00</start_time>
+  <end_time>2009-05-31 16:55:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:55.645021</modification_date>
+  <creation_date>2010-01-22 12:34:18.695006</creation_date>
+  <cwuri>http://crater:8087/eid/1082</cwuri>
+  <eid>1082</eid>
+</Talk>
+<Talk>
+  <title>Prototypage d'une place de marché</title>
+  <description>On présente de quelle manière python a été utilisé pour maquetter l'algorithmique d'une place de marché de troc de bien mesurables.</description>
+  <start_time>2009-05-31 16:00:00</start_time>
+  <end_time>2009-05-31 16:25:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:55.455215</modification_date>
+  <creation_date>2010-01-22 12:34:18.668195</creation_date>
+  <cwuri>http://crater:8087/eid/1081</cwuri>
+  <eid>1081</eid>
+</Talk>
+<Talk>
+  <title>Promouvoir Django en entreprise</title>
+  <description>Nous croyons dur comme fer au potentiel de Django dans l'entreprise, mais encore faut-il en convaincre les décideurs.</description>
+  <start_time>2009-05-31 16:00:00</start_time>
+  <end_time>2009-05-31 16:25:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:55.326467</modification_date>
+  <creation_date>2010-01-22 12:34:18.644658</creation_date>
+  <cwuri>http://crater:8087/eid/1080</cwuri>
+  <eid>1080</eid>
+</Talk>
+<Talk>
+  <title>ISLE Environnement de Recherche Artistique</title>
+  <description>Je propose de faire une rapide présentation liee a mon utilisation de Python et des produits open source Enthought dans mon travail de recherche doctoral et mon activité artistique.Notamment l'élaboration d'un atelier de développement intégré, qui facilite l'expérimentation et l'exploration de manière "Artistique". Cet outil incorpore un éventail de librairies open source,(Computer vision, machine learning, robotiques ...).</description>
+  <start_time>2009-05-31 15:45:00</start_time>
+  <end_time>2009-05-31 15:55:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:55.187855</modification_date>
+  <creation_date>2010-01-22 12:34:18.619071</creation_date>
+  <cwuri>http://crater:8087/eid/1079</cwuri>
+  <eid>1079</eid>
+</Talk>
+<Talk>
+  <title>Sortez votre python pour draguer</title>
+  <description>Les outils tels que mechanize et html5lib permettent la manipulation de sites web. Nous verrons comment les exploiter afin de créer un frontend pour un site web donné, ou d'automatiser certaines tâches effectuées sur le site.</description>
+  <start_time>2009-05-31 15:30:00</start_time>
+  <end_time>2009-05-31 15:55:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:55.057048</modification_date>
+  <creation_date>2010-01-22 12:34:18.593015</creation_date>
+  <cwuri>http://crater:8087/eid/1078</cwuri>
+  <eid>1078</eid>
+</Talk>
+<Talk>
+  <title>Django-ROA pour une architecture orientée ressources</title>
+  <description>Courte présentation d'un module que je dois releaser d'ici Pycon.</description>
+  <start_time>2009-05-31 15:30:00</start_time>
+  <end_time>2009-05-31 15:40:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:54.905913</modification_date>
+  <creation_date>2010-01-22 12:34:18.571437</creation_date>
+  <cwuri>http://crater:8087/eid/1077</cwuri>
+  <eid>1077</eid>
+</Talk>
+<Talk>
+  <title>PyQt4: Un exemple de sur-mesure en Model View Delegate</title>
+  <description>Où l'on montre par l'exemple comment les modèles Qt peuvent s'adapter à des structures de données Python arbitraires.</description>
+  <start_time>2009-05-31 15:15:00</start_time>
+  <end_time>2009-05-31 15:25:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:54.759445</modification_date>
+  <creation_date>2010-01-22 12:34:18.549984</creation_date>
+  <cwuri>http://crater:8087/eid/1076</cwuri>
+  <eid>1076</eid>
+</Talk>
+<Talk>
+  <title>ECScart package python pour la gestion d'un caddie</title>
+  <description>ESC Cart est un paquet Python conçu pour les projets de e-commerce permettant à l'utilisateur de gérer des objets dans un caddie.</description>
+  <start_time>2009-05-31 15:00:00</start_time>
+  <end_time>2009-05-31 15:25:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:54.679817</modification_date>
+  <creation_date>2010-01-22 12:34:18.528991</creation_date>
+  <cwuri>http://crater:8087/eid/1075</cwuri>
+  <eid>1075</eid>
+</Talk>
+<Talk>
+  <title>Amusez-vous à tester avec les objets farceurs (mock)</title>
+  <description>Une présentation de 10 minutes sur le module 'mocker' créeant des objets imitant les véritables implémentations: les 'mock' ou objets farceurs. Farceurs, parce qu'ils sont capables de renvoyer des résultats mais n'ont pas d'implémentation, leur comportement est enregistré à l'avance. Leur utilisation est cependant sérieuse parce qu'ils permettent d'écrire des tests </description>
+  <start_time>2009-05-31 15:00:00</start_time>
+  <end_time>2009-05-31 15:10:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:54.564481</modification_date>
+  <creation_date>2010-01-22 12:34:18.507108</creation_date>
+  <cwuri>http://crater:8087/eid/1074</cwuri>
+  <eid>1074</eid>
+</Talk>
+<Talk>
+  <title>Les ours aiment le jazz</title>
+  <description>La SS2L Bearstech a cherché à développer, héberger et utiliser autre chose que les traditionelles applications en PHP. Parralèlement au framework RoR, ils ont choisi de tester Django.</description>
+  <start_time>2009-05-31 14:45:00</start_time>
+  <end_time>2009-05-31 14:55:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:54.485921</modification_date>
+  <creation_date>2010-01-22 12:34:18.485198</creation_date>
+  <cwuri>http://crater:8087/eid/1073</cwuri>
+  <eid>1073</eid>
+</Talk>
+<Talk>
+  <title>Développement rapide avec FormAlchemy</title>
+  <description>FormAlchemy est une librairie permettant de générer des formulaires web basés sur des modèles SQLAlchemy.</description>
+  <start_time>2009-05-31 14:30:00</start_time>
+  <end_time>2009-05-31 14:40:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:54.395586</modification_date>
+  <creation_date>2010-01-22 12:34:18.462318</creation_date>
+  <cwuri>http://crater:8087/eid/1072</cwuri>
+  <eid>1072</eid>
+</Talk>
+<Talk>
+  <title>Oubliez le sql avec SQLAlchemy</title>
+  <description>Au travers d'une présentation du principe des ORMs ( Object Relational Mapper ) et de SQLAlchemy ( un module d'ORM très complet ), nous verrons comment utiliser une base de données relationnelle sans écrire une ligne de SQL, en manipulant des objets pythons reliés directement à nos tables.</description>
+  <start_time>2009-05-31 14:00:00</start_time>
+  <end_time>2009-05-31 14:25:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:54.322234</modification_date>
+  <creation_date>2010-01-22 12:34:18.440767</creation_date>
+  <cwuri>http://crater:8087/eid/1071</cwuri>
+  <eid>1071</eid>
+</Talk>
+<Talk>
+  <title>PyQt4 : le pied à l'étrier</title>
+  <description>Si vous ne savez pas à quoi ressemble la conception d'interfaces graphiques, c'est ici que ça se passe.</description>
+  <start_time>2009-05-31 12:15:00</start_time>
+  <end_time>2009-05-31 12:25:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:54.179866</modification_date>
+  <creation_date>2010-01-22 12:34:18.392465</creation_date>
+  <cwuri>http://crater:8087/eid/1069</cwuri>
+  <eid>1069</eid>
+</Talk>
+<Talk>
+  <title>CubicWeb pour publier DBpedia et OpenLibrary</title>
+  <description>&lt;p&gt;CubicWeb est une plate-forme construite pour le web sémantique. Cette présentation montrera comment réutiliser les données de DBpedia et OpenLibrary pour enrichir des applications tierces ou pour mettre à jour des relations entre les données qui restent invisibles sans une interface adaptée.&lt;/p&gt;</description>
+  <start_time>2009-05-31 12:00:00</start_time>
+  <end_time>2009-05-31 12:25:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:54.107211</modification_date>
+  <creation_date>2010-01-22 12:34:18.370700</creation_date>
+  <cwuri>http://crater:8087/eid/1068</cwuri>
+  <eid>1068</eid>
+</Talk>
+<Talk>
+  <title>Bélier 0.7 : Outil d'automatisation de connexions ssh complexes</title>
+  <description>Vous passez 50% de vos journées à joindre en ssh des machines à travers plusieurs serveurs rebonds successifs ? Vous devez vous connecter en ssh plusieurs fois par jour en root sur différentes machines avec PermitRootLogin No dans le sshd_config ? Vous souhaitez lancer une commande via ssh sur plusieurs serveurs difficiles à atteindre ?</description>
+  <start_time>2009-05-31 12:00:00</start_time>
+  <end_time>2009-05-31 12:10:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:54.026806</modification_date>
+  <creation_date>2010-01-22 12:34:18.343815</creation_date>
+  <cwuri>http://crater:8087/eid/1067</cwuri>
+  <eid>1067</eid>
+</Talk>
+<Talk>
+  <title>Comment j'utilise Python pour chercher des modèles statistiques de l'activité cérébrale</title>
+  <description>Je propose de faire une présentation où j'expliquerais à des non spécialistes comment j'utilise Python dans mon travail de recherche. Le but de la présentation sera double : un premier aspect plutôt ludique et pour éveiller l'intérêt qui consistera en une introduction aux problèmes de modélisations et traitement des données en IRM. Cette ligne directrice ne servira que d'excuse pour introduire les outils logiciels utilisés et le recul sur les problèmes logiciels rencontrés.</description>
+  <start_time>2009-05-31 11:30:00</start_time>
+  <end_time>2009-05-31 11:55:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:53.955045</modification_date>
+  <creation_date>2010-01-22 12:34:18.322266</creation_date>
+  <cwuri>http://crater:8087/eid/1066</cwuri>
+  <eid>1066</eid>
+</Talk>
+<Talk>
+  <title>Turbogears 2, présentation et introduction (tutoriel)</title>
+  <description>Cette présentation expliquera ce qu'est le framework web Turbogears, son évolution et son futur. Puis, après avoir présenté Turbogears, elle montrera sous forme de tutoriel la réalisation d'une application simple en TurboGears.</description>
+  <start_time>2009-05-31 11:00:00</start_time>
+  <end_time>2009-05-31 11:55:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:53.883358</modification_date>
+  <creation_date>2010-01-22 12:34:18.298698</creation_date>
+  <cwuri>http://crater:8087/eid/1065</cwuri>
+  <eid>1065</eid>
+</Talk>
+<Talk>
+  <title>pythonOCC: une plateforme de développment agile d'applications CAO.</title>
+  <description>Bien qu'il existe des logiciels libres dédiés à la modélisation 3D orientée jeux, la communauté open source souffre encore du manque d'applications CAO 3D industrielles. Les enjeux sont pourtant très importants, notamment du fait de problèmes d'interopérabilité liés à l'utilisation de logiciels commerciaux.</description>
+  <start_time>2009-05-31 11:00:00</start_time>
+  <end_time>2009-05-31 11:25:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:53.813703</modification_date>
+  <creation_date>2010-01-22 12:34:18.277920</creation_date>
+  <cwuri>http://crater:8087/eid/1064</cwuri>
+  <eid>1064</eid>
+</Talk>
+<Talk>
+  <title>Assemblée Générale</title>
+  <description>Assemblée générale de l'Association Python Francophone</description>
+  <start_time>2009-05-31 10:00:00</start_time>
+  <end_time>2009-05-31 11:00:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:53.741810</modification_date>
+  <creation_date>2010-01-22 12:34:18.258349</creation_date>
+  <cwuri>http://crater:8087/eid/1063</cwuri>
+  <eid>1063</eid>
+</Talk>
+<Talk>
+  <title>De la qualité dans un projet en Python</title>
+  <description>De la qualité dans un projet en Python aura pour but de faire comprendre au public l'importance d'une démarche qualité mise en place très tôt au sein d'un projet de développement en Python.</description>
+  <start_time>2009-05-30 17:30:00</start_time>
+  <end_time>2009-05-30 17:55:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:53.670216</modification_date>
+  <creation_date>2010-01-22 12:34:18.237693</creation_date>
+  <cwuri>http://crater:8087/eid/1062</cwuri>
+  <eid>1062</eid>
+</Talk>
+<Talk>
+  <title>Atomisator</title>
+  <description>Atomisator est un framework d'aggrégation de données modulable.</description>
+  <start_time>2009-05-30 17:30:00</start_time>
+  <end_time>2009-05-30 17:55:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:53.599763</modification_date>
+  <creation_date>2010-01-22 12:34:18.216097</creation_date>
+  <cwuri>http://crater:8087/eid/1061</cwuri>
+  <eid>1061</eid>
+</Talk>
+<Talk>
+  <title>PyQt4: un toolkit multiplateforme, graphique et plus</title>
+  <description>Un diaporama survol des principales fonctionnalités de l'environnement de développement Python Qt4 et de fonctionnalités importantes.</description>
+  <start_time>2009-05-30 17:15:00</start_time>
+  <end_time>2009-05-30 17:25:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:53.528231</modification_date>
+  <creation_date>2010-01-22 12:34:18.194299</creation_date>
+  <cwuri>http://crater:8087/eid/1060</cwuri>
+  <eid>1060</eid>
+</Talk>
+<Talk>
+  <title>Twisted : présentation rapide exemples d'utilisation real-world</title>
+  <description>Je présenterais brièvement le framework Twisted avec quelques schemas et quelques lignes de code pour montrer comment ca marche par rapport à du code synchrone classique. Puis je montrerais quelques usecases, notamment dans ma boite Jamendo, qui utilisent Twisted pour en expliquer les avantages/inconvénients.</description>
+  <start_time>2009-05-30 16:30:00</start_time>
+  <end_time>2009-05-30 16:55:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:53.386394</modification_date>
+  <creation_date>2010-01-22 12:34:18.151218</creation_date>
+  <cwuri>http://crater:8087/eid/1058</cwuri>
+  <eid>1058</eid>
+</Talk>
+<Talk>
+  <title>Programmer CouchDB avec couchdbkit</title>
+  <description>Afin d'illustrer la facilité d'utilisation de couchdbkit pour programmer une application en python pour CouchDB, on va construire une simple application permettant d'enregistrer une todo liste. Cela nécessite de connaître python et d'être familier avec le développement d'une application web. Les concepts de CouchDB seront présentés au fur et à mesure du tutorial.</description>
+  <start_time>2009-05-30 16:15:00</start_time>
+  <end_time>2009-05-30 17:10:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:53.315235</modification_date>
+  <creation_date>2010-01-22 12:34:18.127030</creation_date>
+  <cwuri>http://crater:8087/eid/1057</cwuri>
+  <eid>1057</eid>
+</Talk>
+<Talk>
+  <title>Python, langage bling bling</title>
+  <description>Python est un langage haut niveau qui, manipulé par des artistes de talent, peut donner des œuvres d'arts.Les fonctionnalités les plus innovantes de Python seront passées en revue : mot clé with, générateur, etc.</description>
+  <start_time>2009-05-30 16:00:00</start_time>
+  <end_time>2009-05-30 16:25:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:53.244510</modification_date>
+  <creation_date>2010-01-22 12:34:18.106373</creation_date>
+  <cwuri>http://crater:8087/eid/1056</cwuri>
+  <eid>1056</eid>
+</Talk>
+<Talk>
+  <title>Utilisation de python pour le développement d'une plateforme web d'annotation génomique</title>
+  <description>Python et la librairie cherrypy (http://cherrypy.org) ont été choisi pour le développement de la plateforme web RNAspace d'annotation génomique d'ARN non-codant-protéine. Cette plateforme encore en cours de développement est réalisée afin de proposer un site web (http://rnaspace.org) et des plateformes locales. </description>
+  <start_time>2009-05-30 15:45:00</start_time>
+  <end_time>2009-05-30 16:10:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:53.166965</modification_date>
+  <creation_date>2010-01-22 12:34:18.084419</creation_date>
+  <cwuri>http://crater:8087/eid/1055</cwuri>
+  <eid>1055</eid>
+</Talk>
+<Talk>
+  <title>Mettez un python dans votre poche</title>
+  <description>Les téléphones portables, ou terminaux mobiles, pour reprendre la terminologie des opérateurs, deviennent de plus en plus proches des ordinateurs de bureaux, et permettent souvent d'installer des applications tierces. </description>
+  <start_time>2009-05-30 15:30:00</start_time>
+  <end_time>2009-05-30 15:40:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:53.094599</modification_date>
+  <creation_date>2010-01-22 12:34:18.063396</creation_date>
+  <cwuri>http://crater:8087/eid/1054</cwuri>
+  <eid>1054</eid>
+</Talk>
+<Talk>
+  <title>Python au coeur du projet OLPC</title>
+  <description>Présentation du projet OLPC (One Laptop per Child) et de son ordinateur, le XO, de son interface (SUGAR) et de ses liens avec Python avec exemple d'une activité</description>
+  <start_time>2009-05-30 15:00:00</start_time>
+  <end_time>2009-05-30 15:25:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:53.023522</modification_date>
+  <creation_date>2010-01-22 12:34:18.040211</creation_date>
+  <cwuri>http://crater:8087/eid/1053</cwuri>
+  <eid>1053</eid>
+</Talk>
+<Talk>
+  <title>Python scientifique</title>
+  <description>Python est de plus en plus utilisé comme language haut-niveau pour la recherche scientifique. D'excellents modules de calcul et de visualisation scientifiques ont donc été développés, et sont précieux bien en dehors de la recherche scientifique. Ce tutorial vous introduira au module numpy, pour le calcul numérique efficace, ainsi qu'a la démarche utilisée pour développer, valider et optimiser des algorithmes numériques.</description>
+  <start_time>2009-05-30 14:00:00</start_time>
+  <end_time>2009-05-30 14:55:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:52.952368</modification_date>
+  <creation_date>2010-01-22 12:34:18.017525</creation_date>
+  <cwuri>http://crater:8087/eid/1052</cwuri>
+  <eid>1052</eid>
+</Talk>
+<Talk>
+  <title>Python et les bases de données non sql.</title>
+  <description>Panorama des bases de données non sql (CouchDB, Lightcloud, Tokyo cabinet, Redis, MongoDB, ZODB, ..) et les différentes manières de les attaquer en Python.</description>
+  <start_time>2009-05-30 12:00:00</start_time>
+  <end_time>2009-05-30 12:25:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:52.811755</modification_date>
+  <creation_date>2010-01-22 12:34:17.970998</creation_date>
+  <cwuri>http://crater:8087/eid/1050</cwuri>
+  <eid>1050</eid>
+</Talk>
+<Talk>
+  <title>Contrôle de versions de source: pourquoi? comment?</title>
+  <description>Il est primordial, pour un développeur, d'avoir une bonne gestion des "versions" de son code source. Le but est de voir pourquoi, puis comment, en prenant l'histoire d'un développeur fictif et de ses tribulations.</description>
+  <start_time>2009-05-30 12:00:00</start_time>
+  <end_time>2009-05-30 12:25:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:52.740095</modification_date>
+  <creation_date>2010-01-22 12:34:17.949502</creation_date>
+  <cwuri>http://crater:8087/eid/1049</cwuri>
+  <eid>1049</eid>
+</Talk>
+<Talk>
+  <title>Skinner vos applications web avec Deliverance</title>
+  <description>Deliverance est un proxy écrit en python qui intercepte les flux de données provenant d'applications hétérogènes et les modifient afin de rendre leur design homogène.</description>
+  <start_time>2009-05-30 11:30:00</start_time>
+  <end_time>2009-05-30 11:55:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:52.668517</modification_date>
+  <creation_date>2010-01-22 12:34:17.928234</creation_date>
+  <cwuri>http://crater:8087/eid/1048</cwuri>
+  <eid>1048</eid>
+</Talk>
+<Talk>
+  <title>PyQuery</title>
+  <description>Présentation de la bibliothèque PyQuery : utiliser une interface très proche de jQuery en python pour faire des requêtes sur un document HTML (ou XML).</description>
+  <start_time>2009-05-30 11:00:00</start_time>
+  <end_time>2009-05-30 11:25:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:52.598591</modification_date>
+  <creation_date>2010-01-22 12:34:17.907531</creation_date>
+  <cwuri>http://crater:8087/eid/1047</cwuri>
+  <eid>1047</eid>
+</Talk>
+<Talk>
+  <title>Correction d'un bug et naissance d'une nouvelle fonctionnalité dans CPython</title>
+  <description>Le bug tracker et la liste de diffusion python-dev sont le centre nerveux du développement de CPython (l'implémentation Python de référence écrite en C, appelée simplement « Python »). Nous verrons comme un bug est rapporté, isolé, puis corrigé. De la même manière, nous verrons comment une idée de nouvelle fonctionnalité est concrétisée dans le code de Python.</description>
+  <start_time>2009-05-30 10:30:00</start_time>
+  <end_time>2009-05-30 10:55:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:52.527249</modification_date>
+  <creation_date>2010-01-22 12:34:17.887624</creation_date>
+  <cwuri>http://crater:8087/eid/1046</cwuri>
+  <eid>1046</eid>
+</Talk>
+<Talk>
+  <title>Introduction a la programmation python</title>
+  <description>Atelier de programmation s'adressant a des personnes qui ne savent déjà programmer dans un autre langage (C, Java, php, perl, ...) et qui souhaitent se mettre a python.</description>
+  <start_time>2009-05-30 10:00:00</start_time>
+  <end_time>2009-05-30 11:55:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:52.456756</modification_date>
+  <creation_date>2010-01-22 12:34:17.866857</creation_date>
+  <cwuri>http://crater:8087/eid/1045</cwuri>
+  <eid>1045</eid>
+</Talk>
+<Talk>
+  <title>Comment Python va dominer le monde !</title>
+  <description>Python est bien plus présent autour de nous que la plupart des gens le pensent.</description>
+  <start_time>2009-05-30 10:00:00</start_time>
+  <end_time>2009-05-30 10:25:00</end_time>
+  <description_format>text/html</description_format>
+  <modification_date>2010-03-08 15:19:52.359795</modification_date>
+  <creation_date>2010-01-22 12:34:17.824658</creation_date>
+  <cwuri>http://crater:8087/eid/1044</cwuri>
+  <eid>1044</eid>
+</Talk>
+</rset>

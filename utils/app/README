@@ -1,0 +1,8 @@
+keytool -genkey -v -keystore pyconfr-android.keystore -alias pyconfr-android -keyalg RSA -keysize 2048 -validity 10000
+
+jarsigner -verbose -keystore pyconfr-android.keystore pyconfr-android-unaligned.apk pyconfr-android
+
+jarsigner -verify pyconfr-android-unaligned.apk
+
+zipalign -v 4 pyconfr-android-unaligned.apk pyconfr-android.apk
+

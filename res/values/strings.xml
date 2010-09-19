@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<string name="hello">Hello World, Main!</string>
+	<string name="app_name">PyCONFR</string>
+	<string name="menu_settings">Paramètres</string>
+	<string name="menu_about">A propos</string>
+	<string name="menu_testing">Test</string>
+	<string name="menu_update">Mise à jour</string>
+    <string name="menu_quit">Quitter</string>
+	<string name="search_label">Recherche</string>
+	<string name="settings_description">PyCONFR recherche</string>   
+	<string name="menu_test_display_event">Événement</string>
+	<string name="menu_prefetch_rooms">Prefetch Maps</string> 
+	<string name="synchronize_button">Synchronizer</string>
+	<string name="synchronize_title">Synchronizer</string>
+	<string name="synchronize_description">Synchronizer les présentations avec le site PyCONFR.\n\nVous devez disposer d une connection Internet pour cela.</string>
+	<string name="db_ver">Dernière mise à jour:</string>
+	<string name="about_text1">FOSDEM Schedule application</string>
+	<string name="about_text2">Programmed by: \nMichaël Uyttersprot, Pieter Iserbyt and Christophe Vandeplas.</string>
+	<string name="about_text3">Source available at http://fosdem.org/schedule/phone</string> 
+	<string name="favorites">Favoris</string>
+	<string name="favorites_event_removed">Événement retiré des favoris</string>
+	<string name="favorites_event_added">Événement ajouté dans les favoris</string>
+	<string name="share">Partager...</string>
+	<string name="updater_title">Que souhaitez vous mettre à jour?</string>
+	<string-array name="updater_dialog_choices">
+		<item name="updater_dialog_choices_xml">Mise à jour des présentations</item>
+		<!-- item name="updater_dialog_choices_rooms">Mise à jour des plans des salles</item -->
+	</string-array>
+</resources>

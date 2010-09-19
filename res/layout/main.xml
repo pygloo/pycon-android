@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_bg"   >
+
+	<LinearLayout
+		android:id="@+id/btn_days"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		>
+		
+	<Button 
+		android:id="@+id/btn_day_1"
+		android:text="Samedi"
+		
+		android:layout_width="fill_parent" 
+		android:layout_height="80dip"
+		android:layout_weight="1"
+		
+		android:textSize="20dip"
+		/>
+	<Button 
+		android:id="@+id/btn_day_2"
+		android:text="Dimanche"
+		
+		android:layout_width="fill_parent" 
+		android:layout_height="80dip"
+		android:layout_weight="1"
+		
+		android:textSize="20dip"
+		/>
+		</LinearLayout>
+	<Button
+		android:id="@+id/btn_favorites"
+		android:text="@string/favorites"
+		android:layout_below="@id/btn_days"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="20dip"/>
+	<Button 
+		android:id="@+id/btn_search"
+		android:text="Pour lancer la recherche appuyez sur la touche recherche Android"
+		
+		android:enabled="false"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_below="@id/btn_favorites"
+		
+		android:textSize="14dip"
+		/>
+	<RelativeLayout
+		android:id="@+id/texts"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		>
+	<TextView  
+	    android:id="@+id/progress"
+	    
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    />
+	    
+    <TextView  
+	    android:text="Version de la base de données"
+	    android:id="@+id/db_ver"
+	    
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    
+	    android:layout_below="@id/progress"
+	    />
+	</RelativeLayout>
+
+</RelativeLayout>

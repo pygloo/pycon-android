@@ -1,0 +1,8 @@
+syntax: glob
+bin/*
+gen/*
+.settings/*
+*.class
+*.swp
+*.keystore
+

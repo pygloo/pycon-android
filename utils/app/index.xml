@@ -1,0 +1,522 @@
+<xml><conference><title>PyCONFR 2010</title><subtitle>Rendez-vous annuel des utilisateurs de Python organisee par l'Association Francophone Python</subtitle><venue>Cyberbase de la Cite des Sciences</venue><city>Paris</city><start>2010-10-28</start><end>2010-10-29</end><days>2</days><day_change>08:00</day_change><timeslot_duration>00:15</timeslot_duration></conference><day date="2009-10-28" index="1"><room name="Agora"><event id="2112"><start>10:00</start><duration>01:00</duration><room>Agora</room><tag /><title>Petit-déj, présentations</title><subtitle /><abstract>Petit-déj, présentations</abstract><track>Petit-déj</track><type /><language /><description># Au programme :
+
+  * petit déjeuner offert par l'AFPy
+
+  * moment convivial qui permet aux gens de se rencontrer, d'échanger.
+
+  * présentation du HackerSpace
+
+  * inscription aux lightenings-talks du dimanche soir
+
+  * présentation des sponsors "Gold"
+
+</description><persons /><links /></event><event id="1916"><start>14:30</start><duration>00:30</duration><room>Agora</room><tag /><title>Python et Introspection</title><subtitle /><abstract>Python et Introspection</abstract><track>Agora</track><type /><language /><description>Python dispose de fonctions avancées d'introspection. On parcourra
+l'utilisation des attributs __module__, im_func, co_code, co_argcount,
+co_varnames et des inévitables hasattr, getattr et setattr. Le tout enrichi
+d'exemples.
+
+</description><persons><person id="1">Olivier Hervieu</person></persons><links /></event><event id="1971"><start>12:30</start><duration>00:30</duration><room>Agora</room><tag /><title>Gérer efficacemment votre conférence avec une application orientée web sémantique</title><subtitle /><abstract>Gérer efficacemment votre conférence avec une application orientée web sémantique</abstract><track>Agora</track><type /><language /><description>Qu'elle s'adresse au grand public ou à un public expert, l'organisation d'une
+conférence est toujours un grand défi. Un des critère majeur pour son succés
+est l'accès et la diffusion des données la concernant sur le web.
+
+Aujourd'hui chaque conférence ou workshop développe son propre site web,
+unique et malheureusement incapable de communiquer, d'échanger avec d'autres
+conférence. L'information n'est pas structurée et peut difficilement faire
+l'objet de requêtes extérieures.
+
+Je présenterai l'application web [conférence][1] basée sur le framework web
+sémantique [CubicWeb][2]. Cette application sous licence LGPL est celle que
+vous utilisez en lisant ces lignes. Elle est également utilisée pour la
+gestion de la conférence [EuroSciPy][3].
+
+Cette application utilise un schéma qui permet de formaliser les informations
+en utilisant plusieurs ontologies parmi lesquelles:
+
+  * [SWCO][4] pour Semantic Web Conference Ontology,
+
+  * [FOAF][5] pour les participants, orateurs et organisateurs,
+
+  * et dans un futur proche l'ontologie SWRC (Semantic Web forResearch
+Communities) pour les données bibliographiques.
+
+Mais Conference offre d'autres avantages comme la gestion du processus de
+sélection des présentations ou la communication d'information au public. La
+présentation se terminera donc pas une visite des coulisses du site PyCONFR.
+
+   [1]: http://www.cubicweb.org/project/cubicweb-conference
+
+   [2]: http://www.cubicweb.org/
+
+   [3]: http://www.euroscipy.org
+
+   [4]: http://data.semanticweb.org/ns/swc/swc_2009-05-09.html
+
+   [5]: http://xmlns.com/foaf/spec/
+
+</description><persons><person id="2">Charles Hébert</person></persons><links><link href="http://www.cubicweb.org/project/cubicweb-conference">Conférence</link><link href="http://www.cubicweb.org/">Cubicweb</link><link href="http://www.euroscipy.org">Euroscipy</link><link href="http://xmlns.com/foaf/spec/">Foaf</link><link href="http://data.semanticweb.org/ns/swc/swc_2009-05-09.html">Swco</link></links></event><event id="2100"><start>17:30</start><duration>00:30</duration><room>Agora</room><tag /><title>Lightnings</title><subtitle /><abstract>Lightnings</abstract><track>Lightning Talks</track><type /><language /><description /><persons><person id="3">Benoît Chesneau</person></persons><links /></event><event id="1877"><start>16:15</start><duration>00:30</duration><room>Agora</room><tag /><title>Analyse statistique et classification automatique de texte avec nltk et scikits.learn</title><subtitle /><abstract>Analyse statistique et classification automatique de texte avec nltk et scikits.learn</abstract><track>Agora</track><type /><language /><description>Le but de cette présentation est de donner un aperçu de deux libs python très
+utiles pour le traitement automatique de données textuelles:
+
+  * [nltk][1] (Natural Language Toolkit) permet de "parser" du texte en
+anglais (et certaines autres langues) pour en extraire la structure des
+phrases et donc parfois aussi leur sens ;
+
+  * [scikits.learn][2] extension pour numpy/scipy qui fournit des
+implementations de references des principaux algorithmes d'apprentissage
+artificiel(statistical machine learning)
+
+Pour présenter les concepts mis en jeu de la manière la plus concrète
+possible, nous prendrons l'exemple de la classification automatiques de
+documents web (HTML, PDF, email, ...) en fonction du sujet parmis une liste
+fixe d'une vingtaine de sujet prédéfinis.
+
+   [1]: http://www.nltk.org
+
+   [2]: http://scikit-learn.sourceforge.net
+
+</description><persons><person id="4">Olivier Grisel</person></persons><links /></event><event id="1934"><start>11:00</start><duration>00:30</duration><room>Agora</room><tag /><title>Gunicorn, déployer facilement votre application python sur le web</title><subtitle /><abstract>Gunicorn, déployer facilement votre application python sur le web</abstract><track>Agora</track><type /><language /><description>Lors de cette conférence, je présenterais [Gunicorn][1], 'Green Unicorn', un
+serveur WSGI pour UNIX:
+
+  * Comment fonctionne Gunicorn
+
+  * Comment intégrer votre application avec [Gunicorn][1] quelque soit le
+framework ou sans framework
+
+  * Créer un serveur de chat, utiliser les websockets, mettre un site de
+e-commerce en ligne, un blog... Quels sont les options à utiliser
+
+  * Mettre en production
+
+  * Surveiller [Gunicorn][1]
+
+  * Quelques trucs
+
+ ...
+
+   [1]: http://gunicorn.org
+
+</description><persons><person id="5">Benoît Chesneau</person></persons><links /></event><event id="1977"><start>17:15</start><duration>00:15</duration><room>Agora</room><tag /><title>Perfect-Sale: un e-commerce en python</title><subtitle /><abstract>Perfect-Sale: un e-commerce en python</abstract><track>Agora</track><type /><language /><description>Orateur: Sylvain Taverne ([sylvain@itaapy.com][1]) Format: présentation (25
+minutes)
+
+Perfect-Sale est une solution e-commerce écrite en python et basée sur une
+base de données objet versionnée. Nous présenterons les caractéristiques et
+avantages de perfect-sale qui lui sont notamment conférées par sa plateforme
+technique iKaaro.
+
+   [1]: mailto:sylvain@itaapy.com
+
+</description><persons><person id="6">Sylvain Taverne</person></persons><links /></event><event id="2022"><start>15:45</start><duration>00:30</duration><room>Agora</room><tag /><title>Aiguille et botte de foin: scikit-learn et joblib pour explorer des données volumeuses</title><subtitle /><abstract>Aiguille et botte de foin: scikit-learn et joblib pour explorer des données volumeuses</abstract><track>Agora</track><type /><language /><description>Que cela soit sous la forme de bases de données, d'images, de textes ou de
+séries temporelles, les systèmes informatiques modernes accumulent de gros
+volumes de données.
+
+La fouille de donnée pour extraire des informations pertinentes des univers
+numériques est normalement réservée à des logiciels spécialisés qui intègrent
+accès aux données, algorithmes d'apprentissage statistiques et moteurs
+d'exécution avec bien souvent une interface utilisateur dédiée, des outils de
+visualisation, ou un langage de script.
+
+Pour permettre d'attaquer des problèmes variés, tant en ce qui concerne le
+type de données traitées que le contexte d'application, il est important de
+fournir des briques réutilisables sous forme de librairies.
+
+Je présenterai deux efforts récents allant dans cette direction et qui
+s'intègrent dans l'univers riche de modules Python pour la gestion de base de
+données ou le calcul scientifique:
+
+  * [scikit-learn][1]: une librairie regroupant des algorithmes
+d'apprentissage statistique sous forme d'objets s'efforçant d'abstraire les
+détails mathématiques pour répondre à des cas d'utilisation concret.
+
+  * [joblib][2]: un projet encore jeune de métaprogrammation pour assembler
+des fonctions et des objets Python sous forme d'une pipeline permettant de
+traiter efficacement de grosses données. La particularité de joblib est
+d'encourager le développement de code Python classique en évitant le recours à
+un moteur d'exécution.
+
+L'originalité de l'approche présentée est de séparer moteur d'exécution,
+algorithmes, et accès aux données pour maximiser la réutilisation de code.
+
+J'illustrerai l'utilisation de ces librairies sur des problèmes
+d'apprentissage statistique et de fouille de données avec des images et des
+données textuelles.
+
+   [1]: http://scikit-learn.sourceforge.net/
+
+   [2]: http://packages.python.org/joblib/
+
+</description><persons><person id="7">Gael Varoquaux</person></persons><links><link href="http://packages.python.org/joblib/">Joblib</link><link href="http://scikit-learn.sourceforge.net/">Scikit-learn</link></links></event><event id="2007"><start>16:45</start><duration>00:30</duration><room>Agora</room><tag /><title>nucentral, serveur XML-RPC libre basé sur Twisted</title><subtitle /><abstract>nucentral, serveur XML-RPC libre basé sur Twisted</abstract><track>Agora</track><type /><language /><description>nucentral est un ORB (Object Request Broker) libre basé sur Twisted. Le client
+s'y connecte via le réseau en XML-RPC, ce qui permet d'avoir divers types de
+client : texte, graphique, web, etc. La connexion est chiffrée par SSL. Pour
+des questions de performance, la bibliothèque xmlrpclib a été backportée de
+Python 2.7 (pour Python 2.5) pour réutiliser la même socket (HTTP/1.1, keep
+alive) pour plusieurs requêtes XML-PRC. Le serveur exige une authentification
+pour gérer les permissions. Le client a une session dans laquelle les
+applications peuvent stocker des données.
+
+Basé sur Twisted, le code est écrit pour être en asynchrone, ce qui exige un
+apprentissage. Le décorateur @inlineCallbacks utilisant simplifie beaucoup la
+syntaxe. Avantage de Twisted : on peut également y ajouter un service UDP ou
+héberger temporairement des fichiers en HTTP.
+
+nucentral est la brique de base d'une solution commerciale d'administration de
+parefeu. Python s'est montré à la hauteur et est utilisé en production chez
+nos clients.
+
+--
+
+Conférenciers : Victor Stinner et Pierre-Louis Bonicoli
+
+</description><persons><person id="8">Victor Stinner</person><person id="9">Pierre-Louis Bonicoli</person></persons><links /></event><event id="1935"><start>15:00</start><duration>00:30</duration><room>Agora</room><tag /><title>Python sur les nuages</title><subtitle /><abstract>Python sur les nuages</abstract><track>Agora</track><type /><language /><description>Lors de cette présentation nous verrons comment déployer facilement votre
+application python sur le cloud ou controler celui-ci avec python:
+
+  * Quelles sont les outils opensources ou non qui peuvent vous y aider: App
+Engine, Mediatemple, Silverlining, Libcloud, kraftwerk, ...
+
+  * Quelques trucs pour rendre votre application python facilement déployable
+sur le cloud.
+
+</description><persons><person id="10">Benoît Chesneau</person></persons><links /></event><event id="1994"><start>12:00</start><duration>00:30</duration><room>Agora</room><tag /><title>Programmation en Flux, présentation et application avec PyF</title><subtitle /><abstract>Programmation en Flux, présentation et application avec PyF</abstract><track>Agora</track><type /><language /><description>Présentation (25 mn) de la programmation en flux et des générateurs python. La
+présentation explique le concept, sa raison d'être en programmation python,
+les possibilités qu'elle offre et son application avec les librairies PyF.
+
+note pour l'organisation: si possible, la présentation ne doit pas etre pas le
+matin tot (sujet complexe) et avant l'atelier (pas forcément immediatement,
+mais permettant aux personnes ayant assisté à la présentation d'assister à
+l'atelier).
+
+</description><persons><person id="11">Jonathan Schemoul</person></persons><links /></event><event id="2044"><start>10:00</start><duration>01:00</duration><room>Agora</room><tag /><title>Assemblée générale de l'Association Francophone Python</title><subtitle /><abstract>Assemblée générale de l'Association Francophone Python</abstract><track>Assemblée Générale</track><type /><language /><description>  * ordre du jour à compléter
+
+  * bilans moral et financier
+
+  * discussion ouverte avec les membres
+
+  * renouvellement du CD
+
+  * élection du Prés
+
+</description><persons /><links /></event><event id="2095"><start>15:30</start><duration>00:15</duration><room>Agora</room><tag /><title>pause</title><subtitle /><abstract>pause</abstract><track>Pause</track><type /><language /><description /><persons /><links /></event><event id="1931"><start>11:30</start><duration>00:30</duration><room>Agora</room><tag /><title>Tryton : développement d'application pour entreprise</title><subtitle /><abstract>Tryton : développement d'application pour entreprise</abstract><track>Agora</track><type /><language /><description>Tryton est une plate-forme applicative écrite en Python permettant le
+développement rapide d'application pour la gestion d'entreprise. Le but de la
+présentation est de montrer comme Tryton résout les problèmes de développement
+d'application de gestion d'entreprise.
+
+</description><persons><person id="12">Cédric Krier</person></persons><links /></event><event id="2090"><start>15:30</start><duration>00:15</duration><room>Agora</room><tag /><title>pause</title><subtitle /><abstract>pause</abstract><track>Pause</track><type /><language /><description /><persons /><links /></event><event id="2085"><start>15:30</start><duration>00:15</duration><room>Agora</room><tag /><title>pause</title><subtitle /><abstract>pause</abstract><track>Pause</track><type /><language /><description /><persons /><links /></event><event id="2080"><start>15:30</start><duration>00:15</duration><room>Agora</room><tag /><title>pause</title><subtitle /><abstract>pause</abstract><track>Pause</track><type /><language /><description /><persons /><links /></event><event id="1645"><start>14:00</start><duration>00:30</duration><room>Agora</room><tag /><title>Industrialiser vos applications Django avec DjangoPluggableApp</title><subtitle /><abstract>Industrialiser vos applications Django avec DjangoPluggableApp</abstract><track>Agora</track><type /><language /><description>DjangoPluggableApp est un utilitaire permettant de facilement générer une
+application Django distribuable et réutilisable.
+
+Le but de la présentation est de démontrer l'efficacité du principe dans un
+cas concret.
+
+</description><persons><person id="13">Gael Pasgrimaud</person></persons><links /></event></room><room name="Classe Numérique"><event id="1959"><start>15:00</start><duration>00:30</duration><room>Classe Numérique</room><tag /><title>Construire un CMS sur mesure avec django</title><subtitle /><abstract>Construire un CMS sur mesure avec django</abstract><track>Classe Numérique</track><type /><language /><description>L'objectif de cette présentation est de partager avec l'auditoire l'expérience
+accumulée sur des projets ayant pour but de construire un CMS sur mesure
+remplaçant une application vieillissante ou envahissante.
+
+Cette présentation suivra le plan suivant :
+
+  * Décomposition du projet: Ce genre de projet se termine en général avec une
+liste de plusieurs milliers de tickets. Dans cette première partie nous allons
+discuter les grands ensembles. Notre approche est basé sur la création d'un
+prototype qui nous permet de rapidement nous rendre compte de l'ampleur du
+projet et de fournir au client une estimation du temps de développement
+nécessaire à la réalisation du projet.
+
+  * Que faire des données existantes : Migrer de bonne heure et migrer souvent
+
+  * Sélectionner des composant tiers : Réutiliser des applications existantes,
+créer une fourche dans l'arbre de développement ou créer votre propre
+application.
+
+  * Mauvaise nouvelle : Django n'est pas parfait -- qu'elles sont ses
+faiblesses et comment les compenser.
+
+A la fin de cette présentation l'audience sera capable de : • Décomposer ce
+genre de projet en grandes phases • Migrer une grosse base de donnée pour
+peupler les applications django pendant leur développement • Sectionner des
+applications tiers et déterminer leurs évolutions
+
+# Au sujet de l'auteur
+
+J'ai commencé ma carrière comme consultant informatique sur les produits
+Dassault Systèmes. Mes différentes missions m'ont permis d'intégrer la rigueur
+et les connaissances nécessaires à l'implémentation de larges systèmes PLM
+(Product Lifecycle Management) dans des infrastructures informatiques
+complexes. A la suite de ces années passées chez le plus grand éditeur de
+logiciel français, j'ai décidé de franchir le pas en travaillant pour un
+équipementier automobile en prenant le poste de "Responsable PLM France" de
+Lear Corporation.
+
+Enfin, il y a 2 ans, je suis parti m'installer en Guadeloupe où j'ai développé
+une activité de consultant et développeur indépendant spécialisé dans la
+création d'applications web complexes pour des entreprises locales et
+internationales ; la majorité du chiffre d'affaire est réalisé aux États Unis
+d'Amérique. Fort de cette expérience et des rencontres faites, j'ai décidé de
+créer Gwadeloop pour m'attaquer au marché européen en transposant le modèle
+utilisé avec succès sur le sol américain.
+
+[http://gwadeloop.com/][1] [http://yml-blog.blogspot.com/][2]
+[http://lincolnloop.com/team][3]
+
+   [1]: http://gwadeloop.com/
+
+   [2]: http://yml-blog.blogspot.com/
+
+   [3]: http://lincolnloop.com/team
+
+</description><persons><person id="14">Yann Malet</person></persons><links /></event><event id="2001"><start>14:00</start><duration>01:00</duration><room>Classe Numérique</room><tag /><title>Atelier sur la programmation en Flux avec PyF</title><subtitle /><abstract>Atelier sur la programmation en Flux avec PyF</abstract><track>Classe Numérique</track><type /><language /><description>Atelier (1H) : Un atelier permet à chaque participant de coder.
+
+Installation du web service de PyF, création d'un premier tube de traitement
+de données (permettant par exemple d'extraire des données et de génèrer un
+fichier xml, un csv et un rapport pdf en parallèle) et présentation rapide du
+système de plugins de pyf, des synchronisation, des séparations et des
+regroupement de flux.
+
+</description><persons><person id="15">Jonathan Schemoul</person></persons><links /></event><event id="1976"><start>15:45</start><duration>01:00</duration><room>Classe Numérique</room><tag /><title>itws le CMS qui respecte vos données</title><subtitle /><abstract>itws le CMS qui respecte vos données</abstract><track>Classe Numérique</track><type /><language /><description>  * orateur: Luis Belmar-Letelier [http://www.itaapy.com/qui-sommes-
+nous#luis][1]
+
+  * format: Tutorial (55mn)
+
+itws illustration d'une solution construite avec le CMS python: iKaaro.
+
+Les CMS il y en a tant ! Mais lequel versionne toutes ses données avec git,
+les conserve dans leur format originel sur votre disque. C'est le résultat
+d'un travail ininterrompu de 7 années au sein de l'équipe d'Itaapy.
+
+Une interface conviviale et tous les outils pour réaliser un site web moderne.
+Le tout sur un moteur de GED puissant, et toute la panoplie collaborative
+tracker, wiki, calendrier.
+
+Cette présentation montrera rapidement à quoi ressemble l'utilisation d'itws
+puis plongera dans une description de son architecture technique particulière
+et la philosophie sous-jacente.
+
+Mots clé: REST, NoSQL, Git, Xapian, lpOD et ... Python
+
+   [1]: http://www.itaapy.com/qui-sommes-nous#luis
+
+</description><persons><person id="16">Luis Belmar-Letelier</person></persons><links /></event><event id="2067"><start>10:30</start><duration>02:00</duration><room>Classe Numérique</room><tag /><title>Atelier d'introduction à la programmation avec Python</title><subtitle /><abstract>Atelier d'introduction à la programmation avec Python</abstract><track>Classe Numérique</track><type /><language /><description>Atelier de programmation pour les débutants en Python avec exercices
+interactifs. Cet atelier s'adresse à des personnes qui connaissent déjà la
+programmation dans un autre langage (C/C++, Java, Perl, PHP, ...) et qui
+voudraient decouvrir les joies de ce sympathique langage qu'est Python.
+
+Nous essaierons de préparer des ordinateurs mais si vous disposez d'un
+ordinateur portable, il est recommandé de venir avec. Installez au préalable
+python 2.6 ou 2.7: [http://python.org/download/][1]
+
+   [1]: http://python.org/download/
+
+</description><persons><person id="17">Olivier Grisel</person></persons><links /></event><event id="1922"><start>16:45</start><duration>01:00</duration><room>Classe Numérique</room><tag /><title>Les WebServices faciles avec TGWebServices</title><subtitle /><abstract>Les WebServices faciles avec TGWebServices</abstract><track>Classe Numérique</track><type /><language /><description>Implémenter des webservices multi-protocoles au sein de votre application
+TurboGears est un jeu d'enfant avec TGWebServices.
+
+Après une présentation de TGWebServices, on verra comment concevoir,
+implémenter, documenter et utiliser des webservices avec les différents
+protocoles.
+
+Forme proposée : Un tutoriel de 55min.
+
+</description><persons><person id="18">Christophe de Vienne</person></persons><links /></event></room></day><day date="2009-10-29" index="2"><room name="Agora"><event id="2036"><start>11:00</start><duration>00:30</duration><room>Agora</room><tag /><title>Plone: optimisation, déploiement.</title><subtitle /><abstract>Plone: optimisation, déploiement.</abstract><track>Agora</track><type /><language /><description># Optimisations et déploiement #20 minutes
+
+# autour de Zope/Plone
+
+   * proxy-cache: varnish + intégration Plone
+
+   * ramcache: memcached + intégration Plone + intégration Zope
+
+   * loadbalancer: HAProxy
+
+   * newsletter: configuration pour un support de +8300 emails.
+
+# dans Plone
+
+   * add-on: experimental.*, Relstorage, collective.remove.*, ...
+
+   * code profiling pour finir: gprof2dot
+
+# Questions #5 minutes
+
+</description><persons><person id="19">Jean-Michel François</person></persons><links /></event><event id="2105"><start>17:15</start><duration>00:45</duration><room>Agora</room><tag /><title>Lightnings</title><subtitle /><abstract>Lightnings</abstract><track>Lightning Talks</track><type /><language /><description /><persons><person id="20">Benoît Chesneau</person></persons><links /></event><event id="2032"><start>16:45</start><duration>00:30</duration><room>Agora</room><tag /><title>Mozilla et Python</title><subtitle /><abstract>Mozilla et Python</abstract><track>Agora</track><type /><language /><description>Utilisation de Python chez Mozilla.
+
+</description><persons><person id="21">Tarek Ziadé</person></persons><links /></event><event id="1949"><start>15:45</start><duration>00:30</duration><room>Agora</room><tag /><title>Intégration continue avec apycot</title><subtitle /><abstract>Intégration continue avec apycot</abstract><track>Agora</track><type /><language /><description>[apycot][1] est un outil d'intégration continue permettant de lancer une série
+de tests automatiques lorsqu'un changement est détecté dans un entrepôt de
+gestion de sources (svn ou mercurial).
+
+La plateforme fournit déjà un ensemble de plugins permettant de s'assurer que
+les tests unitaires passent (unittest, py.test), que la couverture de code est
+suffisante (pycoverage), que le code respecte les conventions de codage du
+projet (pylint), que des bugs ne sont pas détectés (pylint, pychecker) ainsi
+que certains autres autour du packaging (distutils, debian).
+
+Cette présentation a pour but de présenter l'outil et ses possibilités, qui ne
+se limitent pas au monde python, ainsi qu'un exemple concret d'utilisation par
+l'équipe de développement de [mercurial][2] avec le site [hgpycot][3].
+
+Enfin, la présentation conclura en exposant les évolutions futures, en
+particulier la maintenance d'entrepôts debian/ubuntu et établira un comparatif
+avec les outils existants comme [buildbot][4].
+
+   [1]: http://www.logilab.org/project/apycot
+
+   [2]: http://mercurial.selenic.com/
+
+   [3]: http://apycot.hg-scm.org/
+
+   [4]: http://buildbot.net/
+
+</description><persons><person id="22">Adrien Di Mascio</person></persons><links /></event><event id="2011"><start>16:15</start><duration>00:30</duration><room>Agora</room><tag /><title>Interfaçage Python avec C/C++</title><subtitle /><abstract>Interfaçage Python avec C/C++</abstract><track>Agora</track><type /><language /><description>Python est un langage de très haut niveau qui a su montrer ses atouts dans de
+nombreux domaines, de la programmation web aux applications scientifiques en
+passant par l'administration système. Cependant, malgré sa présence de plus en
+plus reconnue, il peut parfois s'avérer nécessaire de faire cohabiter Python
+avec un autre langage compilé, tels le C, le C++ ou encore FORTRAN, que ce
+soit par choix ou par nécessité. Cette présentation aura pour but de montrer
+la diversité des solutions offertes au programmeur pour interfacer Python avec
+du code C ou C++.
+
+</description><persons><person id="23">Adrien Saladin</person></persons><links /></event><event id="1854"><start>12:30</start><duration>00:30</duration><room>Agora</room><tag /><title>Exploiter les architectures multi-coeurs</title><subtitle /><abstract>Exploiter les architectures multi-coeurs</abstract><track>Agora</track><type /><language /><description>Malgré le Global Interpreter Lock, python permet de maximiser les
+architectures multi-coeurs. Critiqué pour son incapacité à faire du vrai
+traitement en parallèle au sein d'un même processus, python est cependant tout
+à fait capable d'utiliser les mécanismes de communication inter processus pour
+effectuer cette tâche proprement.
+
+Cette présentation couvrira principalement le module "multiprocessing" et elle
+sera accompagné d'une démonstration d'un système temps réel mou.
+
+</description><persons><person id="24">Tristan Cacqueray</person></persons><links /></event><event id="1955"><start>14:30</start><duration>00:30</duration><room>Agora</room><tag /><title>"Push-email" dans Twisted: le making-of</title><subtitle /><abstract>"Push-email" dans Twisted: le making-of</abstract><track>Agora</track><type /><language /><description>Le projet Twisted est un ensemble de modules, de classes et de fonctions qui
+permettent de construire efficacement des applications réseau performantes et
+robustes.
+
+Ce framework réseau couvre en particulier les protocoles d'emails: SMTP, POP
+et IMAP. Par contre, Twisted ne fournit pas une extension du standard IMAP: la
+commande _IDLE_ qui permet le _push email_, c'est a dire une methode d'acces
+aux emails plus performante: elle offre une latence moindre, tout en diminuant
+la charge du serveur.
+
+Apres une introduction sur les points cles de Twisted, cette presentation
+montre les etapes d'une implementation de cette extension d'IMAP dans Twisted
+:
+
+  1. la réalisation d'un prototype du mécanisme de notification serveur vers
+client, avec les abstractions du framework,
+
+  2. puis l'architecture du module IMAP dans Twisted et le portage du
+prototype dans ces classes,
+
+  3. ensuite, les tests d'intégration avec les serveurs largement utilises:
+Dovecot et Gmail,
+
+  4. enfin, l'adoption des méthodes du projet Twisted qui conditionnent la
+revue du code et son eventuelle integration
+
+</description><persons><person id="25">Jean Daniel Browne</person></persons><links /></event><event id="1961"><start>15:00</start><duration>00:30</duration><room>Agora</room><tag /><title>Python dans Debian</title><subtitle /><abstract>Python dans Debian</abstract><track>Agora</track><type /><language /><description>Cette conférence aura pour but de présenter la situation actuelle et à venir
+de Python dans le projet Debian. Les aspects organisationnels et techniques de
+Python dans Debian seront abordés. L'accent en première partie sera mis sur
+l'utilisation de Python au sein du projet Debian et les applications Python
+disponibles. En deuxième partie de conférence le cas concret de l'empaquetage
+d'une application Python sera présenté.
+
+</description><persons><person id="26">Carl Chenet</person></persons><links /></event><event id="1962"><start>11:30</start><duration>00:30</duration><room>Agora</room><tag /><title>Une base de donnés versionnée en Python : itools.database</title><subtitle /><abstract>Une base de donnés versionnée en Python : itools.database</abstract><track>Agora</track><type /><language /><description>Parmi les base des donnés dites nosql, itools.database se différence pour son
+support native du versioning des donnés. Dans cette présentation nous
+montrerons ses caractéristiques et comment elle est utilisé dans le système de
+gestion de contenu ikaaro.
+
+</description><persons><person id="27">J. David Ibáñez</person></persons><links /></event><event id="1956"><start>14:00</start><duration>00:30</duration><room>Agora</room><tag /><title>MongoDB &amp; MongoKit</title><subtitle /><abstract>MongoDB &amp; MongoKit</abstract><track>Agora</track><type /><language /><description>MongoKit est une ODM (Object Document Mapping) pour MongoDB qui propose de
+nombreuses fonctionnalités.
+
+Je propose une présentation comportant deux points :
+
+  * une présentation de MongoDB et un survole rapide de ses possibilités
+
+  * une présentation de MongoKit et de ses capacités ainsi qu'une vue
+d'ensemble de l'API. Cette présentation à déjà été faite à MongoFR cette année
+: [http://www.slideshare.net/namlook/mongokit-presentation-mongofr2010][1]
+
+Je peux, si besoin est, faire une session tutoriel avec création d'un
+véritable projet web avec MongoKit et Pylons.
+
+Nicolas CLAIRON
+
+   [1]: http://www.slideshare.net/namlook/mongokit-presentation-mongofr2010
+
+</description><persons><person id="28">Nicolas Namlook</person></persons><links /></event><event id="1978"><start>12:00</start><duration>00:30</duration><room>Agora</room><tag /><title>Un réseau social ouvert et distribué avec CubicWeb</title><subtitle /><abstract>Un réseau social ouvert et distribué avec CubicWeb</abstract><track>Agora</track><type /><language /><description>Cette présentation sera l'occasion de décrire comment des composants pour
+[CubicWeb][1] peuvent être assemblés pour aboutir à une application qui
+constitue un noeud d'un réseau social distribué.
+
+Chaque personne membre du réseau peut se tenir au courant des nouvelles
+publiées par ses amis, voir les dernières photos, lire les derniers
+commentaires écrits à propos de livres, de musique ou de films.
+
+Comme toujours avec CubicWeb, cette application est un logiciel libre qui
+utilise et encourage les standards du Web Sémantique, parmi lesquels RDF et
+SPARQL. Les premiers exemples sont les sites des développeurs, qui seront
+bientôt publics. Le réseau social résultant est donc à la fois distribué et
+ouvert.
+
+   [1]: http://www.cubicweb.org
+
+</description><persons><person id="29">Nicolas Chauvat</person></persons><links><link href="http://www.cubicweb.org">Cubicweb</link></links></event></room><room name="Classe Numérique"><event id="2013"><start>16:45</start><duration>00:30</duration><room>Classe Numérique</room><tag /><title>Optimisation d'applications Django</title><subtitle /><abstract>Optimisation d'applications Django</abstract><track>Classe Numérique</track><type /><language /><description>Django rend parfois le développement d'applications trop facile, et la
+documentation est souvent orientée vers les fonctionnalités plus que vers les
+performances.
+
+Une application Django peut être prototypée très rapidement, mais pas
+n'utilise pas forcément les ressources de manière optimale. Nous allons donc
+voir les différents moyens d'identifier les goulots d'étranglement et les
+sources d'optimisation possibles : l'ORM et les templates sont les principaux
+consommateurs de ressources, et le cache est une piste à explorer sérieusement
+pour réduire la charge.
+
+Le but de cette présentation est d'introduire des outils et des techniques
+permettant d'optimiser son projet de manière efficace.
+
+</description><persons><person id="30">Bruno Renié</person></persons><links /></event><event id="1988"><start>15:45</start><duration>01:00</duration><room>Classe Numérique</room><tag /><title>lpOD-python ODF top-down</title><subtitle /><abstract>lpOD-python ODF top-down</abstract><track>Classe Numérique</track><type /><language /><description>  * orateur: Luis Belmar-Letelier [http://www.itaapy.com/qui-sommes-
+nous#luis][1] et Hervé Cauwelier [herve@itaapy.com][2]
+
+  * format: Tutorial (55mn)
+
+lpOD ([http://lpod-project.org/][3]) est une plateforme proposant une API de
+haut niveau de type _top-down_ pour manipuler l'ensemble des objets décrits
+par la norme ODF (ISO/IEC 26300): .odt, .ods, .odp, .odg.
+
+Aujourd'hui l'implémentation de référence, réalisée en python, est terminée à
+95%.
+
+Nous vous présenterons le projet, l'architecture, les méthodes employées, et
+l'interaction du projet lpod avec :
+
+  * les autres communautés ODF (OpendocumentSocity, ODFDom),
+
+  * les comité et groupe de normalisation, (OASIS, ODF Plugfests)
+
+  * les laboratoires de recherche, (Télécom Paristech, C2RMF, PMC, LIL)
+
+Enfin et surtout nous illustrerons l'usage de la librairie Python au travers
+de nombreux exemples, des plus simples aux plus comlexes (application
+ikaaro.wiki).
+
+   [1]: http://www.itaapy.com/qui-sommes-nous#luis
+
+   [2]: mailto:herve@itaapy.com
+
+   [3]: http://lpod-project.org/
+
+</description><persons><person id="31">Luis Belmar-Letelier</person></persons><links /></event><event id="2075"><start>11:00</start><duration>02:00</duration><room>Classe Numérique</room><tag /><title>Hackerspace</title><subtitle /><abstract>Hackerspace</abstract><track>Hackerspace</track><type /><language /><description>Rencontrez les personne d'un projet, Discutez, Travaillez autour d'un projet.
+Plus d'info sur [hackerspaces.org][1] . Créateurs, mainteneurs de projet
+Inscrivez-vous sur le [wiki][2]
+
+   [1]: http://hackerspaces.org
+
+   [2]: http://pyconfr2010.couch.it/
+
+</description><persons><person id="32">Benoît Chesneau</person></persons><links><link href="http://hackerspaces.org">Hackerspaces.org</link><link href="http://pyconfr2010.couch.it/">Wiki</link></links></event><event id="1984"><start>14:00</start><duration>01:30</duration><room>Classe Numérique</room><tag /><title>Atelier découverte de CubicWeb</title><subtitle /><abstract>Atelier découverte de CubicWeb</abstract><track>Classe Numérique</track><type /><language /><description>Un atelier d'une demi-journée (ou moins) pour présenter les concepts de
+[CubicWeb][1] et permettre à tous d'acquérir les bases pour réaliser leur
+première application web ou leur premier site avec CubicWeb.
+
+On utilisera comme exemple les sites [http://demo.cubicweb.org][2],
+[http://www.pycon.fr][3], [http://www.logilab.org][4], [http://apycot.hg-
+scm.org][5], etc.
+
+   [1]: http://www.cubicweb.org/
+
+   [2]: http://demo.cubicweb.org
+
+   [3]: http://www.pycon.fr
+
+   [4]: http://www.logilab.org
+
+   [5]: http://apycot.hg-scm.org
+
+</description><persons><person id="33">Nicolas Chauvat</person></persons><links><link href="http://demo.cubicweb.org">2</link><link href="http://www.pycon.fr">3</link><link href="http://www.logilab.org">4</link><link href="http://apycot.hg-scm.org">5</link><link href="http://www.cubicweb.org/">Cubicweb</link></links></event></room></day></xml>
